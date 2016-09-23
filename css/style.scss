@@ -6,22 +6,179 @@ $padding_top_bottom_mobile: 25px;
 @import "style2.css";
 @import "style3.css";
 @import "style4.css";
+@import "fonts.css";
 
 h2{
     color: #fff;
     font-family: "RobotoRegular";
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 strong{
-	
+	 font-family: "RobotoBold";
 }
 .center{
 	text-align: center;
 	margin: 0 auto;
 }
+.kupit{
+    width: 100%;
+    padding: $padding_top_bottom_mobile 0px;
+    background: url(../img/kupit.jpg) no-repeat top center;
+    background-size: cover;
+    text-align: center;
+    .kupit-inner{
+        padding-top: 25px;
+        .ho-staf{
+            position: relative;
+            .ho-main{
+                position: relative;
+                padding-left: 15px;
+                margin-bottom: 50px;
+                z-index: 60;
+                span.title{
+                    display: block;
+                    font-size: 30px;
+                    color: #fff;
+                    font-family: "RobotoRegular";
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                }
+                .desc{
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-family: "RobotoRegular";
+                }
+            }
+            img{
+                display: block;
+              
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                z-index: 50;
+                margin: 0 auto;
 
+            }
+        }
+    }
+    .kupit-logos{
+        text-align: center;
 
+        img{
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+
+        }
+
+    }
+}
+.contacts{
+    background: #36690c;
+    width: 100%;
+    padding: $padding_top_bottom_mobile 0px;
+    .ho-contact-box{
+        margin-bottom: 30px;
+        .map-box{
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .desc{
+            background: #009fe3;
+            color: #fff;
+            font-size: 18px;
+            font-family: "RobotoRegular";
+            padding: 25px;
+            min-height: 244px;
+            margin-top: -5px;
+            span{
+                display: block;
+            }
+            .title{
+                display: block;
+                margin-bottom: 15px;
+            }
+            .address{
+                background: url(../img/ic1.png) no-repeat left center;
+                padding-left: 30px;
+            }
+            .tel{
+                background: url(../img/ic2.png) no-repeat left center;
+                padding-left: 30px;
+            }
+            .email{
+                background: url(../img/ic3.png) no-repeat left center;
+                padding-left: 30px;
+            }
+            .address, .email, .tel{
+                margin-bottom: 10px;
+
+            }
+
+        }
+    }
+
+}
+.order{
+    background: url(../img/order_bg.png) repeat;
+    width: 100%;
+    padding: $padding_top_bottom_mobile 0px;
+    .title{
+        display: block;
+        color: #fff;
+        font-family: "RobotoRegular";
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    form{
+        input[type="text"]{
+            width: 100%;
+            display: inline-block;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            color: #000;
+            font-family: "RobotoRegular";
+            height: 49px;
+            box-sizing: border-box;
+            padding: 0px 25px;
+            border-radius: 12px;
+            background: #fff;
+            margin-bottom: 10px;
+
+        }
+        textarea{
+            width: 100%;
+            display: inline-block;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            color: #000;
+            font-family: "RobotoRegular";
+            height: 78px;
+            box-sizing: border-box;
+            padding: 25px 25px;
+            border-radius: 12px;
+            background: #fff;
+            margin-bottom: 10px;
+        }
+        .submit{
+            width: 333px;
+            height: 79px;
+            background: url(../img/submit1.png) no-repeat top center;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -31,7 +188,13 @@ strong{
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-	
+	.kupit-logos{
+        text-align: left !important;
+        img{
+            display: inline-block;
+            width: unset !important;
+        }
+    }
 }
 
 /* Small Devices, Tablets */
@@ -43,6 +206,64 @@ strong{
 @media only screen and (min-width : 992px) {
    h2{
         font-size: 60px;
+    }
+    .kupit{
+        padding: $padding_top_bottom_desctop 0px;
+        text-align: left;
+        background-size: unset !important;
+
+        .kupit-inner{
+            padding-top: 100px;
+
+            .ho-staf{
+                
+                .ho-main{
+                    
+                    padding-right: 50px;
+                  
+                    span.title{
+                       
+                    }
+                    .desc{
+                       
+                    }
+                }
+                img{
+                    display: block;
+                    position: relative !important;
+                    transform: unset;
+                    margin-top: -200px;
+                    margin-left: -325px;
+
+                }
+            }
+        }
+        .kupit-logos{
+            text-align: left !important;
+            padding-top: 115px;
+            img{
+                display: inline-block;
+                width: unset !important;
+            }
+        }
+    }
+    .contacts{
+        padding: $padding_top_bottom_desctop 0px;
+        text-align: left;
+        .ho-contact-box{
+           
+            .map-box{
+               min-height: 400px;
+            }
+            .desc{
+               
+                padding: 40px;
+                
+            }
+        }
+    }
+    .order{
+        padding: $padding_top_bottom_desctop 0px;
     }
 }
  /* Large Devices, Wide Screens */
