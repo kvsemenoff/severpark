@@ -1,3 +1,52 @@
+.alert {
+  display: none; }
+
+.alertblock {
+  display: block;
+  position: absolute; }
+
+.az-alert-inner {
+  background: #0099ff;
+  color: #fff;
+  padding: 10px 30px;
+  position: relative;
+  text-align: center; }
+  .az-alert-inner span {
+    display: block;
+    font-family: "RobotoRegular";
+    font-size: 18px; }
+    .az-alert-inner span strong {
+      font-family: "RobotoBold"; }
+      .az-alert-inner span strong sup {
+        font-size: 10px; }
+
+.az-alert-inner:before {
+  content: '';
+  top: -30px;
+  left: 20px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid #0099ff;
+  border-bottom: 15px solid #0099ff;
+  border-right: 5px solid transparent;
+  border-top: 15px solid transparent;
+  -webkit-transform: skew(14deg);
+  -moz-transform: skew(14deg);
+  -o-transform: skew(14deg); }
+
+.az-map {
+  background: url(../img/az-map.jpg) no-repeat top center;
+  position: relative; }
+  .az-map #imap {
+    width: 100%;
+    height: 1045px; }
+    .az-map #imap svg {
+      position: absolute;
+      top: 72px;
+      left: calc(48% - 65px);
+      transform: translate(-48%, 0); }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */

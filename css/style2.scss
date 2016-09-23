@@ -1,8 +1,80 @@
+$padding_top_bottom_desctop: 60px;
+$padding_top_bottom_mobile: 25px;
+
+
+
+// ****************** SLIDER *******************
+.ah-slider{
+    width: 100%;
+}
+.item {
+    position: relative; 
+}
+.arrow-left{
+    position: absolute;
+    display: block;
+    padding: 26px;
+    background-image: url(../img/ah-arrowleft.png);
+    background-color: #fff;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 50px;
+    left: 0px;
+    border-radius: 35px;
+}
+.arrow-right{
+    position: absolute;
+    display: block;
+    padding: 26px;
+    background-image: url(../img/ah-arrowright.png);
+    background-color: #fff;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 50px;
+    right: 0px;
+    border-radius: 35px;
+}
+// ****************** SLIDER *******************
+// ****************** Akci *******************
+.ah-akci{
+    background: url(../img/ah-akcii-fon.jpg) top center no-repeat;
+}
+.ah-akcibox{
+    margin-top: 20px;
+}
+.ah-akci-span{
+    display: block;
+    font-family: "RobotoRegular";
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+    background-color: #aa2521;
+    width: 397px;
+    height: 80px;
+}
+.ah-akci-span1{
+    display: block;
+    font-family: "RobotoBlack";
+    color: #fff;
+    font-size: 60px;
+    width: 541px;
+    height: 80px;
+    background-color: #aa2521;
+}
+.ah-akci-link{
+    display: block;
+    font-family: "RobotoRegular";
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 10px;
+}
 
 
 
 
-
+// ****************** Akci *******************
 
 
 
@@ -26,7 +98,19 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-   
+    .item {
+        transform: translate3d(-992.5px, 0px, 0px);
+    }
+    .arrow-left{
+        padding: 33px;
+        bottom: 150px;
+        left: 240px;
+    }
+    .arrow-right{
+        padding: 33px;
+        bottom: 150px;
+        right: 240px;
+    }
 }
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {

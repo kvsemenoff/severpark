@@ -1,15 +1,18 @@
 <div class="clearfix"></div>
-<section class="ah-request">
+
+<section class="ah-akci">
 	    <div class="container">
 		    <div class="row">
-				<div class="col-md-8 col-md-push-4">
-					<img src="img/ah-bo.png" class="img-responsive ah-request-img" alt="ah-bo">
-					<span class="ah-request-span">Оставьте заявку и получите<br>30 минут фотосъемки в подарок</span>
-					<form action="#" class="ah-requestform">
-						<input type="text" class="ah-requestform-uname" name="uname" placeholder="Введите Ваше имя">
-						<input type="text" class="ah-requestform-tel" name="tel" placeholder="Введите Ваш телефон">
-						<a href="#" class="ah-requestform-link">Оставить заявку</a>
-					</form>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h2>АКЦИИ</h2>
+					<div class="ah-akcibox">
+						<img src="img/ah-akcii1.jpg" alt="ah-ah-akcii1">
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<span class="ah-akci-span">Сертификат</span>
+					<span class="ah-akci-span1">на <span>100 000 рублей</span></span>
+					<a href="#" class="ah-akci-link">Положение о сертификате</a>
 				</div>
            </div>
         </div>
