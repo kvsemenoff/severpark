@@ -30,6 +30,38 @@
   right: 0px;
   border-radius: 35px; }
 
+.ah-akci {
+  background: url(../img/ah-akcii-fon.jpg) top center no-repeat; }
+
+.ah-akcibox {
+  margin-top: 20px; }
+
+.ah-akci-span {
+  display: block;
+  font-family: "RobotoRegular";
+  color: #fff;
+  font-size: 60px;
+  margin-top: 20px;
+  background-color: #aa2521;
+  width: 397px;
+  height: 80px; }
+
+.ah-akci-span1 {
+  display: block;
+  font-family: "RobotoBlack";
+  color: #fff;
+  font-size: 60px;
+  width: 541px;
+  height: 80px;
+  background-color: #aa2521; }
+
+.ah-akci-link {
+  display: block;
+  font-family: "RobotoRegular";
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 10px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
