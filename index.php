@@ -49,7 +49,6 @@
 	<?php require_once('includes/an-block3.php'); ?>
 	<?php require_once('includes/ah-info.php'); ?>
 	<?php require_once('includes/an-block4.php'); ?>
-	<?php require_once('includes/block3.php'); ?>
 	<?php require_once('includes/footer-top.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 	
