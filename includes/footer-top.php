@@ -127,11 +127,11 @@
 					<input type="text" placeholder="Ваш email" name="email">
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-md-10 col-sm-12 col-xs-12">
+				<div class="col-md-8 col-sm-12 col-xs-12">
 					<textarea placeholder="Ваш комментарий"></textarea>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
-					<input type="submit" id="form1_submit" class="submit" value="">
+					<input type="submit" id="form1_submit" class="submit" value="Оставить заявку">
 				</div>
 			</form>
 		</div>

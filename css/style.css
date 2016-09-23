@@ -116,9 +116,9 @@ strong {
     height: 49px;
     box-sizing: border-box;
     padding: 0px 25px;
-    border-radius: 12px;
+    border-radius: 8px;
     background: #fff;
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
   .order form textarea {
     width: 100%;
     display: inline-block;
@@ -129,16 +129,162 @@ strong {
     font-family: "RobotoRegular";
     height: 78px;
     box-sizing: border-box;
-    padding: 25px 25px;
-    border-radius: 12px;
+    padding: 10px 25px;
+    border-radius: 8px;
     background: #fff;
     margin-bottom: 10px; }
   .order form .submit {
-    width: 333px;
-    height: 79px;
-    background: url(../img/submit1.png) no-repeat top center;
+    width: 100%;
+    height: 78px;
+    background: #f8f400;
+    background: #f6fe00;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f6fe00), to(#f6fe00));
+    background: -webkit-linear-gradient(#f6fe00, #f6fe00);
+    background: -moz-linear-gradient(#f6fe00, #f6fe00);
+    background: -ms-linear-gradient(#f6fe00, #f6fe00);
+    background: -o-linear-gradient(#f6fe00, #f6fe00);
+    background: linear-gradient(#f6fe00, #f6fe00);
     border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+    border-radius: 8px;
+    font-family: "RobotoRegular";
+    text-transform: uppercase; }
+  .order form .submit:hover {
+    background: #faf273; }
+
+.footer {
+  background: #009fe3;
+  border-top: 4px solid #0093d2;
+  width: 100%;
+  padding: 25px 0px;
+  text-align: center; }
+  .footer .counter {
+    margin-bottom: 17px;
+    margin-top: 35px; }
+
+.error-input {
+  border: 1px solid red !important; }
+
+input, textarea {
+  outline: none !important; }
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none; }
+
+.window {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 97%;
+  min-height: 315px;
+  display: none;
+  z-index: 9998; }
+  .window .close {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+    background: url("../img/krest.png") no-repeat top center;
     cursor: pointer; }
+  .window .thanks {
+    position: relative;
+    background-color: #fff;
+    padding: 150px 34px;
+    text-align: center;
+    border-radius: 3px; }
+    .window .thanks .title {
+      display: block;
+      font-size: 40px;
+      padding: 50px 0px; }
+    .window .thanks p {
+      font-size: 18px;
+      margin-top: 20px; }
+
+.common-form {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding: 38px;
+  background: url(../img/window_bg.png) repeat;
+  position: relative;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 11px solid #009fe3;
+  text-align: center; }
+  .common-form .form-title {
+    display: inline-block;
+    color: #000;
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 25px; }
+  .common-form .form-subtitle {
+    display: inline-block;
+    color: #009fe3;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family: "RobotoRegular";
+    text-transform: uppercase; }
+  .common-form input {
+    display: block;
+    margin-bottom: 22px;
+    text-align: left; }
+  .common-form input[type="text"] {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    color: #000;
+    font-family: "RobotoRegular";
+    font-size: 18px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+    padding: 0px 20px 0px 56px; }
+  .common-form input[type="submit"] {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background: #73c934;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "RobotoBold";
+    padding: 0px 35px; }
+  .common-form .zv-label {
+    width: 100%;
+    display: inline-block;
+    position: relative; }
+  .common-form .zv1:before {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 19px;
+    background: url(../img/user.png) no-repeat top center;
+    top: 17px;
+    left: 17px; }
+  .common-form .zv2:before {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 19px;
+    background: url(../img/tel.png) no-repeat top center;
+    top: 17px;
+    left: 17px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -185,7 +331,25 @@ strong {
       padding: 40px; }
 
   .order {
-    padding: 60px 0px; } }
+    padding: 60px 0px; }
+
+  .footer {
+    padding: 60px 0px;
+    text-align: left; }
+
+  .common-form {
+    width: 800px;
+    min-height: 150px; }
+    .common-form .title {
+      padding-top: 50px; }
+    .common-form .form-title {
+      padding-top: 75px;
+      margin-bottom: 75px; }
+    .common-form .form-subtitle {
+      font-size: 60px;
+      margin-bottom: 75px; }
+    .common-form .zv-label {
+      width: 70%; } }
 /* Large Devices, Wide Screens */
 /***************/
 
