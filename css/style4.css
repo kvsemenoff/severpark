@@ -16,13 +16,16 @@
   padding-top: 10px; }
   .ab-wrap-header .ab-main-menu li {
     padding: 10px 0;
-    display: block; }
+    display: block;
+    height: 85px; }
   .ab-wrap-header .ab-main-menu a {
-    font-size: 11px;
+    font-size: 16px;
     color: #F3F8FF;
     font-family: "RobotoBold";
     text-transform: uppercase;
-    padding: 6px; }
+    display: inline-block;
+    vertical-align: middle;
+    height: 85px; }
   .ab-wrap-header .ab-main-menu li:hover {
     background: #6DB756; }
   .ab-wrap-header .ab-wrap-menu {
@@ -98,7 +101,14 @@
     position: relative; }
 
   .ab-main-menu li {
-    display: inline-block !important; }
+    display: inline-block !important;
+    vertical-align: middle;
+    text-shadow: 1px 1px 2px black;
+    white-space: normal;
+    padding: 11px 6px !important; }
+
+  .ab-main-menu {
+    text-align: center !important; }
 
   .ab-wrap-menu {
     text-align: center; }
@@ -125,9 +135,11 @@
   .ab-green-fon {
     text-align: left !important;
     position: absolute;
+    width: 655px;
+    height: 252px;
     top: 616px;
-    left: 623px;
-    padding: 18px 59px 18px 96px !important; }
+    left: 535px;
+    padding: 38px 59px 18px 194px !important; }
 
   .ab-people {
     width: 576px;
@@ -145,7 +157,13 @@
     font-size: 36px !important; }
 
   .ab-green-fon-txt-3 {
-    font-size: 45px !important; } }
+    font-size: 45px !important; }
+
+  /*.ab-table-menu{
+      display: table-cell !important;
+      height: 100%;
+      vertical-align: middle !important;
+  }*/ }
 /* Large Devices, Wide Screens */
 /***************/
 

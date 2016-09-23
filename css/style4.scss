@@ -24,14 +24,23 @@ strong{
     .ab-main-menu li{
         padding: 10px 0;
         display: block;
+        height: 85px;
+    }
+    
+    .ab-main-menu{
+        //text-align: center;
+        //padding-left: 10px;
     }
 
     .ab-main-menu a{
-        font-size: 11px;
+        font-size: 16px;
         color: #F3F8FF;
         font-family: "RobotoBold";
         text-transform: uppercase;
-        padding: 6px;
+        display: inline-block;
+        vertical-align: middle;
+        height: 85px;
+
 
     } 
 
@@ -159,15 +168,21 @@ strong{
     }
     .ab-main-menu li{
         display: inline-block !important;
+        vertical-align: middle;
+        text-shadow:  1px 1px 2px black;
+        white-space: normal;
+        padding: 11px 6px !important;
+
     
     }
 
-    .ab-main-menu a{
-        //display: inline-block;
+    .ab-main-menu {
+        text-align: center !important;
 
     } 
 
-    .ab-main-menu a:hover{
+    .ab-main-menu li a{
+        
         
     }
 
@@ -203,9 +218,11 @@ strong{
         text-align: left !important;
         position: absolute;
         //right: 100;
+        width:655px;
+        height: 252px;
         top: 616px;
-        left: 623px;
-        padding: 18px 59px 18px 96px !important;
+        left: 535px;
+        padding: 38px 59px 18px 194px !important;
 
     }
     .ab-people{
@@ -226,6 +243,11 @@ strong{
     .ab-green-fon-txt-3{
         font-size: 45px !important;
     }
+    /*.ab-table-menu{
+        display: table-cell !important;
+        height: 100%;
+        vertical-align: middle !important;
+    }*/
     
 }
  /* Large Devices, Wide Screens */
