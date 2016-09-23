@@ -1,6 +1,3 @@
-<a href="#zvonok" name="modal">Заказать звонок</a>
-<br>
-<a href="#message" name="modal">написать сообщени</a>
 <section class="footer">
 	<div class="container">
 		<div class="row">
@@ -19,6 +16,9 @@
 		</div>
 	</div>
 </section>
+<a href="#zvonok" name="modal" class="button-fix-1"></a>
+<a href="#message" name="modal" class="button-fix-2"></a>
+
 
 <div id="mask"></div>
 
@@ -39,6 +39,7 @@
 		<span class="form-subtitle">написать сообщение</span>
 		<label class="zv-label zv1"><input type="text" name="uname" placeholder="Введите Ваш имя"></label>
 		<label class="zv-label zv2"><input type="text" name="tel" placeholder="Введите Ваш телефон" class="phone"></label>
+		<label class="zv-label zv3"><textarea name="text"  placeholder="Текст сообщения"></textarea></label>
 		<input type="hidden" name="form" value="Форма - заказать звонок">
 		<input type="submit" id="form1_submit" class="button-2" value="Заказать звонок">
 	</form>

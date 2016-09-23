@@ -324,6 +324,23 @@ input, textarea{
         font-family: "RobotoBold";
         padding: 0px 35px;
     }
+    textarea{
+       
+        
+        
+        display: block;
+
+        width: 100%;
+        border: none;
+        color: #000;
+        font-family: "RobotoRegular";
+        font-size: 18px;
+        height: 140px;
+        border-radius: 8px;
+        border: 1px solid #ebebeb;
+        padding: 10px 20px 0px 56px; 
+        margin-bottom: 22px;
+    }
     .zv-label{
         width: 100%;
         display: inline-block;
@@ -349,6 +366,35 @@ input, textarea{
         left: 17px;
 
     }
+    .zv3:before{
+        position: absolute;
+        content: "";
+        width: 21px;
+        height: 15px;
+        background: url(../img/email.png) no-repeat top center;
+        top: 17px;
+        left: 17px;
+
+    }
+}
+
+.button-fix-1{
+    position: fixed;
+    width: 40px;
+    height: 234px;
+    background: url(../img/fix1.png) no-repeat top center;
+    right: 0px;
+    top: 150px;
+    z-index: 99999;
+}
+.button-fix-2{
+    position: fixed;
+    width: 40px;
+    height: 234px;
+    background: url(../img/fix2.png) no-repeat top center;
+    right: 0px;
+    top: 390px;
+    z-index: 99999;
 }
 
 
