@@ -3,7 +3,9 @@
 @import url(style3.css);
 @import url(style4.css);
 h2 {
-  color: #fff; }
+  color: #fff;
+  font-family: "RobotoRegular";
+  font-size: 30px; }
 
 .center {
   text-align: center;
@@ -14,6 +16,9 @@ h2 {
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 60px; } }
 /* Large Devices, Wide Screens */
 /***************/
 

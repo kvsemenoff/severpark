@@ -14,12 +14,9 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/style2.css">
-	<link rel="stylesheet" href="css/style3.css">
 
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
 	
-	<link rel="stylesheet" href="css/fonts.css">
 
 	<meta content="telephone=no" name="format-detection"/>
 	
@@ -53,6 +50,7 @@
 	<?php require_once('includes/ah-info.php'); ?>
 	<?php require_once('includes/an-block4.php'); ?>
 	<?php require_once('includes/block3.php'); ?>
+	<?php require_once('includes/footer-top.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 	
 	
