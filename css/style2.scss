@@ -4,6 +4,20 @@ $padding_top_bottom_mobile: 25px;
 
 
 
+.ah-slider{
+    width: 100%;
+}
+.item {
+    position: relative;
+}
+.arrow-right{
+    position: absolute;
+    display: block;
+    padding: 20px;
+
+}
+
+
 
 
 /*==========  Mobile First Method  ==========*/
