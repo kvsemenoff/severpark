@@ -24,7 +24,35 @@ $('.ah-block3-button').click(function(e) {
 });
 
 
-    // ****************************************** ah ****************************************************
+    // ****************************************** ah-slider ****************************************************
+
+    $('.ah-slidbox').owlCarousel({
+        loop: true,
+        margin:7,
+        items: 2,
+        nav: true,
+        autoplay:false,
+        smartSpeed:1000,
+        autoplayTimeout:2000,
+       
+        navText:['<span class="arrow-right"></span>','<span class="arrow-left"></span>'],
+
+        responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+        
+    });
+
+
+    // ****************************************** ah-slider ****************************************************
 
     $(".single_image").fancybox();
 
