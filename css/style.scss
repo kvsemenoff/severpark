@@ -1,9 +1,14 @@
-$red: #c60006;
+
+$padding_top_bottom_desctop: 60px;
+$padding_top_bottom_mobile: 25px;
+
 @import "reset.css";
 @import "style2.css";
 @import "style3.css";
 @import "style4.css";
-
+h2{
+    color: #fff;
+}
 
 strong{
 	
