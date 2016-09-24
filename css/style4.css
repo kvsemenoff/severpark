@@ -17,6 +17,8 @@
   .ab-wrap-header .ab-main-menu li {
     padding: 10px 0;
     display: block; }
+  .ab-wrap-header .ab-wrap-menu {
+    height: 62px; }
   .ab-wrap-header .ab-main-menu a {
     font-size: 16px;
     color: #F3F8FF;
@@ -52,7 +54,7 @@
     width: 100%;
     background: #AE2E2D;
     color: #FFFFFF;
-    padding: 6px 64px;
+    padding: 6px 26px;
     font-family: "RobotoBold";
     font-size: 14px;
     text-transform: uppercase;
@@ -84,12 +86,18 @@
     right: 4px;
     top: 1px; }
 
+.header-fixed + .anz-menu > .anz-menu-ch {
+  outline: 1px solid red; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+  .header-fixed + .container {
+    padding-top: 85px; }
+
   .ab-wrap-header {
     width: 100%;
     height: 1049px;
@@ -102,7 +110,7 @@
     vertical-align: middle;
     text-shadow: 1px 1px 2px black;
     white-space: normal;
-    padding: 11px 8px !important; }
+    padding: 11px 7px !important; }
 
   .ab-main-menu {
     text-align: center !important; }
@@ -131,6 +139,9 @@
     left: 406px;
     position: absolute;
     top: 214px; }
+
+  .ab-button a {
+    padding: 6px 64px !important; }
 
   .ab-green-fon {
     text-align: left !important;
@@ -161,11 +172,8 @@
   .ab-green-fon-txt-3 {
     font-size: 53px !important; }
 
-  /*.ab-table-menu{
-      display: table-cell !important;
-      height: 100%;
-      vertical-align: middle !important;
-  }*/ }
+  li {
+    border-right: 2px solid #fff; } }
 /* Large Devices, Wide Screens */
 /***************/
 

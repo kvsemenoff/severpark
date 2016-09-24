@@ -20,9 +20,9 @@ $(document).ready(function(){
         margin:7,
         items: 2,
         nav: true,
-        autoplay:false,
+        autoplay:true,
         smartSpeed:1000,
-        autoplayTimeout:2000,
+        autoplayTimeout:500,
        
         navText:['<span class="arrow-right"></span>','<span class="arrow-left"></span>'],
 
