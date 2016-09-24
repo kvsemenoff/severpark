@@ -1,5 +1,13 @@
 
 $(document).ready(function(){
+    $('.ab-main-menu a[href^="#"]').click(function(){ 
+      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+      if($element.length == 1) { 
+         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+      }     
+      return false;
+    });
+
 
 
     $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
@@ -17,10 +25,10 @@ $(document).ready(function(){
 
     $('.ah-slidbox').owlCarousel({
         loop: true,
-        margin:7,
+        margin:5,
         items: 2,
         nav: true,
-        autoplay:true,
+        autoplay: true,
         smartSpeed:1000,
         autoplayTimeout:500,
        

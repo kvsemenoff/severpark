@@ -4,45 +4,44 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<ul class="ab-main-menu hidden-xs hidden-sm">
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Акции</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">План<br> Микройона</a></li>
-						<li><a href="#">Планировки <br> и цены</a></li>
-						<li><a href="#">Видео</a></li>
-						<li><a href="#">Информация</a></li>
-						<li><a href="#">Проектные <br> декларации</a></li>
-						<li><a href="#">Как купить<br> квартиру</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="/">Главная</a></li>
+						<li><a href="#galery">Галерея</a></li>
+						<li><a href="#akcii">Акции</a></li>
+						<li><a href="#news">Новости</a></li>
+						<li><a href="#plan">План<br> Микройона</a></li>
+						<li><a href="#planirovka">Планировки <br> и цены</a></li>
+						<li><a href="#video">Видео</a></li>
+						<li><a href="#info">Информация</a></li>
+						<li><a href="#project">Проектные <br> декларации</a></li>
+						<li><a href="#how">Как купить<br> квартиру</a></li>
+						<li><a href="#contacts">Контакты</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
-        <div class="anz-menu">
+        <div class="anz-menu hidden-lg hidden-md">
             <input type="checkbox" id="check_1" class="anz-mobile"/>
             <label class="anz-menu-ch anz-mobile" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i><i class="fa fa-times" aria-hidden="true"></i></label>
             <div class="anz-perspective">
                 <div class="menu-list-pressed">
                     <ul class="ab-main-menu">
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Акции</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">План<br> Микройона</a></li>
-						<li><a href="#">Планировки <br> и цены</a></li>
-						<li><a href="#">Видео</a></li>
-						<li><a href="#">Информация</a></li>
-						<li><a href="#">Проектные <br> декларации</a></li>
-						<li><a href="#">Как купить<br> квартиру</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="/">Главная</a></li>
+						<li><a href="#galery">Галерея</a></li>
+						<li><a href="#akcii">Акции</a></li>
+						<li><a href="#news">Новости</a></li>
+						<li><a href="#plan">План<br> Микройона</a></li>
+						<li><a href="#planirovka">Планировки <br> и цены</a></li>
+						<li><a href="#video">Видео</a></li>
+						<li><a href="#info">Информация</a></li>
+						<li><a href="#project">Проектные <br> декларации</a></li>
+						<li><a href="#how">Как купить<br> квартиру</a></li>
+						<li><a href="#contacts">Контакты</a></li>
 					</ul>
                 </div>
             </div>
         </div>
 	</div>
-
 
 	<div class="container">
 		<div class="row">

@@ -1,5 +1,6 @@
 <div class="clearfix"></div>
 
+<a name="info"></a>
 <section class="ah-info">
     <div class="container">
 	    <div class="row">
@@ -115,8 +116,11 @@
 
 <script>
 	$(function(){
-		$('.ah-info-link').hover(function(e) {
-        	$(this).parent().find('.ah-info-text').toggle();
-	    });
+		if(window.matchMedia('(min-width : 480px)').matches)
+	    {
+			$('.ah-info-link').hover(function(e) {
+	        	$(this).parent().find('.ah-info-text').toggle();
+		    });
+		}
 	});
 </script>

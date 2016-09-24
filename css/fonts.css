@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:100&subset=latin,cyrillic);
 
-@import url(http://allfont.ru/allfont.css?fonts=roboto-slab-light);
- 
+
 @font-face {
     font-family: "RobotoBlack";
     src: url('../fonts/RobotoBlack/Roboto-Black.eot');

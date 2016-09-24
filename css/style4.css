@@ -19,6 +19,16 @@
     display: block; }
   .ab-wrap-header .ab-wrap-menu {
     height: 62px; }
+  .ab-wrap-header .ab-main-menu li {
+    display: block;
+    vertical-align: middle;
+    text-shadow: 1px 1px 2px black;
+    height: 100%;
+    min-height: 100%;
+    border-right: 1px solid white; }
+    .ab-wrap-header .ab-main-menu li a {
+      display: inline-block;
+      padding: 0px 5px; }
   .ab-wrap-header .ab-main-menu a {
     font-size: 16px;
     color: #F3F8FF;
@@ -86,8 +96,8 @@
     right: 4px;
     top: 1px; }
 
-.header-fixed + .anz-menu > .anz-menu-ch {
-  outline: 1px solid red; }
+.header-fixed > .anz-menu > .anz-menu-ch {
+  margin-top: -5px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -104,22 +114,19 @@
     background: url(../img/headphone.jpg) no-repeat center;
     background-size: cover;
     position: relative; }
-
-  .ab-main-menu li {
-    display: inline-block !important;
-    vertical-align: middle;
-    text-shadow: 1px 1px 2px black;
-    white-space: normal;
-    padding: 11px 7px !important; }
-
-  .ab-main-menu {
-    text-align: center !important; }
-
-  .ab-main-menu li:before {
-    content: ""; }
-
-  .ab-wrap-menu {
-    text-align: center; }
+    .ab-wrap-header .ab-main-menu {
+      text-align: center;
+      display: table;
+      width: 100%; }
+      .ab-wrap-header .ab-main-menu li {
+        display: table-cell;
+        vertical-align: middle;
+        text-shadow: 1px 1px 2px black;
+        height: 100%;
+        min-height: 100%;
+        border-right: 1px solid white; }
+      .ab-wrap-header .ab-main-menu li:last-child {
+        border-right: none; }
 
   .ab-raion {
     margin-top: 30px !important; }
@@ -170,10 +177,7 @@
     margin-top: -11px; }
 
   .ab-green-fon-txt-3 {
-    font-size: 53px !important; }
-
-  li {
-    border-right: 2px solid #fff; } }
+    font-size: 53px !important; } }
 /* Large Devices, Wide Screens */
 /***************/
 
