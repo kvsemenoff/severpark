@@ -17,6 +17,8 @@
   .ab-wrap-header .ab-main-menu li {
     padding: 10px 0;
     display: block; }
+  .ab-wrap-header .ab-wrap-menu {
+    height: 62px; }
   .ab-wrap-header .ab-main-menu a {
     font-size: 16px;
     color: #F3F8FF;
@@ -52,7 +54,7 @@
     width: 100%;
     background: #AE2E2D;
     color: #FFFFFF;
-    padding: 6px 64px;
+    padding: 6px 26px;
     font-family: "RobotoBold";
     font-size: 14px;
     text-transform: uppercase;
@@ -83,6 +85,9 @@
     position: absolute;
     right: 4px;
     top: 1px; }
+
+.header-fixed + .anz-menu > .anz-menu-ch {
+  outline: 1px solid red; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -134,6 +139,9 @@
     left: 406px;
     position: absolute;
     top: 214px; }
+
+  .ab-button a {
+    padding: 6px 64px !important; }
 
   .ab-green-fon {
     text-align: left !important;
