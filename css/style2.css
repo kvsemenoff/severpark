@@ -150,6 +150,7 @@
   margin: 0 auto; }
 
 .ah-infowrap1 {
+  position: relative;
   width: 100%;
   margin-right: 0px;
   margin-bottom: 20px; }
@@ -164,6 +165,7 @@
   margin-top: 20px; }
 
 .ah-info-text {
+  position: absolute;
   display: none;
   width: 333px;
   color: #fff;
@@ -186,13 +188,13 @@
   .ah-infowrap1 {
     width: 330px;
     margin-right: 55px;
-    margin-bottom: 122px; }
+    margin-bottom: 115px; }
 
   .ah-info {
     padding-top: 98px;
     width: 100%;
     background: url(../img/ah-infofon.jpg) top center no-repeat;
-    height: auto; }
+    height: 1645px; }
 
   .ah-newsbox {
     margin-bottom: 0px; }
