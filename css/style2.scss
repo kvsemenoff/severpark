@@ -171,25 +171,21 @@ $padding_top_bottom_mobile: 25px;
     margin-bottom: 20px;
 }
 .ah-info-link{
-    // position: relative;
     display: block;
     font-family: "RobotoBold";
     color: #78d755;
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
-    // border-bottom: 1px dashed #78d755;
+    border-bottom: 1px dashed #78d755;
     margin-top: 20px;
 }
 .ah-info-text{
-    position: fixed;
     display: none;
     width: 333px;
     color: #fff;
     font-family: "RobotoRegular";
     font-size: 14px;
     line-height: 24px;
-
 }
 // ****************** ah-info *******************
 
