@@ -91,8 +91,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .header-fixed + .container {
-    top: 95px;
-    position: absolute; }
+    padding-top: 85px; }
 
   .ab-wrap-header {
     width: 100%;
