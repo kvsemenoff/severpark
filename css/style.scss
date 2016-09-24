@@ -209,6 +209,18 @@ strong{
     width: 100%;
     padding: $padding_top_bottom_mobile 0px;
     text-align: center;
+    .developer{
+        a{
+            display: inline-block;
+            background: url(../img/developer.png) left center no-repeat;
+            color: #fff;
+            text-decoration: underline;
+            line-height: 16px;
+            padding-left: 50px;
+            font-size: 12px;
+            font-family: "RobotoRegular";
+        }
+    }
     .counter{
         margin-bottom: 17px;
         margin-top: 35px;
@@ -608,6 +620,9 @@ input, textarea{
         li:hover{
             
         }
+        .active{
+            background: #6DB756;
+        }
     }
 
 
@@ -685,6 +700,13 @@ input, textarea{
     .contacts{
         padding: $padding_top_bottom_desctop 0px;
         text-align: left;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
         .ho-contact-box{
            
             .map-box{
