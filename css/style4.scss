@@ -32,8 +32,6 @@ strong{
     }
 
     .ab-main-menu{
-        //text-align: center;
-        //padding-left: 10px;
         li{
 				display: block;
 		        vertical-align: middle;
@@ -55,10 +53,6 @@ strong{
         font-family: "RobotoBold";
         text-transform: uppercase;
         display: inline-block;
-        
-        
-
-
     } 
 
     .ab-main-menu li:hover{
@@ -175,7 +169,9 @@ strong{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ab-wrap-header{
+        background: url(../img/headphone.jpg) no-repeat center;
+    }
 }
 
 /* Medium Devices, Desktops */

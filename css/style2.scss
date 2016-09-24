@@ -176,7 +176,7 @@ $padding_top_bottom_mobile: 25px;
     text-align: center;
     // padding: 0px;
 }
-.ah-info-link{
+.ah-info-link {
     display: inline-block;
     font-family: "RobotoBold";
     color: #78d755;
@@ -184,6 +184,10 @@ $padding_top_bottom_mobile: 25px;
     text-align: center;
     border-bottom: 1px dashed #78d755;
     margin-top: 20px;
+}
+.ah-info-link_style2{
+    margin-top: 0px;
+    padding-top: 20px;
 }
 .ah-info-text{
     // position: absolute;
@@ -222,19 +226,24 @@ $padding_top_bottom_mobile: 25px;
         max-height: 327px;
     }
     .ah-info-text{
-        position: absolute;
+        //position: absolute;
         display: none;
         width: 333px;
         color: #fff;
         font-family: "RobotoRegular";
         font-size: 14px;
         line-height: 24px;
+        padding-left: 55px;
     }
     .ah-info-list{
         margin-top: 103px;
     }
     .ah-info-link{
         margin-top: 42px;
+    }
+    .ah-info-link_style2{
+        margin-top: 0px;
+        padding-top: 20px;
     }
     .ah-infowrap1{
         width: 388px;
