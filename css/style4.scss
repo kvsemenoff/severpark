@@ -24,14 +24,23 @@ strong{
     .ab-main-menu li{
         padding: 10px 0;
         display: block;
+        
+    }
+    
+    .ab-main-menu{
+        //text-align: center;
+        //padding-left: 10px;
     }
 
     .ab-main-menu a{
-        font-size: 11px;
+        font-size: 16px;
         color: #F3F8FF;
         font-family: "RobotoBold";
         text-transform: uppercase;
-        padding: 6px;
+        display: inline-block;
+        
+        
+
 
     } 
 
@@ -84,7 +93,7 @@ strong{
         width: 100%;
         background: #AE2E2D;
         color: #FFFFFF;
-        padding: 6px 58px;
+        padding: 6px 64px;
         font-family: "RobotoBold";
         font-size: 14px;
         text-transform: uppercase;
@@ -159,15 +168,21 @@ strong{
     }
     .ab-main-menu li{
         display: inline-block !important;
+        vertical-align: middle;
+        text-shadow:  1px 1px 2px black;
+        white-space: normal;
+        padding: 11px 8px !important;
+
     
     }
 
-    .ab-main-menu a{
-        //display: inline-block;
+    .ab-main-menu {
+        text-align: center !important;
 
     } 
 
-    .ab-main-menu a:hover{
+    .ab-main-menu li:before{
+        content: "";
         
     }
 
@@ -177,11 +192,11 @@ strong{
     }
 
     .ab-raion{
-        padding-left: 200px;
+        margin-top: 30px !important;        
     }
     .ab-phone-number {
-        margin-right: 364px;
-        margin-top: 11px;
+        margin-right: 792px;
+        margin-top: 4px;
         img {
             left: 214px;
             //position: absolute;
@@ -195,17 +210,19 @@ strong{
         }
     }
     .ab-button{
-        left: 622px;
+        left: 406px;
         position: absolute;
-        top: 187px;
+        top: 214px;
     }
     .ab-green-fon{
         text-align: left !important;
         position: absolute;
         //right: 100;
-        top: 616px;
-        left: 623px;
-        padding: 18px 59px 18px 96px !important;
+        width:655px;
+        height: 252px;
+        top: 609px;
+        left: 391px;
+        padding: 28px 58px 15px 209px !important;
 
     }
     .ab-people{
@@ -213,19 +230,26 @@ strong{
         height: 652px;
         background: url(../img/people.png) no-repeat center;
         position: absolute;
-        top: 307px;
-        left: 137px;
+        top: 302px;
+        left: 10px;
         z-index: 100;
     }
     .ab-green-fon-txt-1{
-        font-size: 40px !important;
+        font-size: 48px !important;
     }
     .ab-green-fon-txt-2{
         font-size: 36px !important;
+        display: inline-block;
+        margin-top: -11px;
     }
     .ab-green-fon-txt-3{
-        font-size: 45px !important;
+        font-size: 53px !important;
     }
+    /*.ab-table-menu{
+        display: table-cell !important;
+        height: 100%;
+        vertical-align: middle !important;
+    }*/
     
 }
  /* Large Devices, Wide Screens */

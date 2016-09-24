@@ -8,12 +8,12 @@
 						<li><a href="#">Галерея</a></li>
 						<li><a href="#">Акции</a></li>
 						<li><a href="#">Новости</a></li>
-						<li><a href="#">План <br> Микройона</a></li>
+						<li><a href="#">План<br> Микройона</a></li>
 						<li><a href="#">Планировки <br> и цены</a></li>
 						<li><a href="#">Видео</a></li>
 						<li><a href="#">Информация</a></li>
 						<li><a href="#">Проектные <br> декларации</a></li>
-						<li><a href="#">Как купить квартиру</a></li>
+						<li><a href="#">Как купить<br> квартиру</a></li>
 						<li><a href="#">Контакты</a></li>
 					</ul>
 				</div>
@@ -35,7 +35,7 @@
 					<span class="first-number">+7(3822)</span><span class="second-number">75-03-57</span>
 				</div>
 				<div class="ab-button">
-					<a href="#">Заказать звонок</a> 
+					<a href="#zvonok" name="modal">Заказать звонок</a> 
 				</div>
 				<div class="ab-people">
 					
