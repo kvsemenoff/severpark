@@ -1,3 +1,4 @@
+<a name="how"></a>
 <section class="kupit">
 	<div class="container">
 		<div class="row">
@@ -67,6 +68,7 @@
 
 </section>
 
+<a name="contacts"></a>
 
 <section class="contacts">
 	<div class="container">

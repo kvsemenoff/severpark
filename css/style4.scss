@@ -34,6 +34,15 @@ strong{
     .ab-main-menu{
         //text-align: center;
         //padding-left: 10px;
+        li{
+				display: block;
+		        vertical-align: middle;
+		        text-shadow:  1px 1px 2px black;
+		        height: 100%;
+		        min-height: 100%;
+		        border-right: 1px solid rgba(#fff, 1);
+			}
+
     }
 
     .ab-main-menu a{
@@ -143,11 +152,9 @@ strong{
 
 }
 
-.header-fixed + .anz-menu > .anz-menu-ch{
-        outline: 1px solid red;
-        
-        
-    }
+.header-fixed  > .anz-menu > .anz-menu-ch{
+    margin-top: -5px;
+}
 
 
 /*==========  Mobile First Method  ==========*/
@@ -182,31 +189,28 @@ strong{
         background: url(../img/headphone.jpg) no-repeat center;
         background-size: cover;
         position: relative;
+        .ab-main-menu {
+	        text-align: center;
+	        display: table;
+	        width: 100%;
+			li{
+				display: table-cell;
+		        vertical-align: middle;
+		        text-shadow:  1px 1px 2px black;
+		        height: 100%;
+		        min-height: 100%;
+		        border-right: 1px solid rgba(#fff, 1);
+			}
+			li:last-child{
+				border-right: none;
+			}
+	    } 
     }
-    .ab-main-menu li{
-        display: inline-block !important;
-        vertical-align: middle;
-        text-shadow:  1px 1px 2px black;
-        white-space: normal;
-        padding: 11px 7px !important;
+   
 
     
-    }
-
-    .ab-main-menu {
-        text-align: center !important;
-
-    } 
-
-    .ab-main-menu li:before{
-        content: "";
-        
-    }
 
 
-    .ab-wrap-menu{
-        text-align: center;
-    }
 
     .ab-raion{
         margin-top: 30px !important;        
@@ -265,9 +269,7 @@ strong{
     .ab-green-fon-txt-3{
         font-size: 53px !important;
     }
-    li {
-        border-right: 2px solid #fff;
-    }
+    
     
 }
  /* Large Devices, Wide Screens */
