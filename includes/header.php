@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<ul class="ab-main-menu hidden-xs hidden-sm">
-						<li><a href="#/">Главная</a></li>
+						<li><a href="/">Главная</a></li>
 						<li><a href="#galery">Галерея</a></li>
 						<li><a href="#akcii">Акции</a></li>
 						<li><a href="#news">Новости</a></li>
@@ -26,7 +26,7 @@
             <div class="anz-perspective">
                 <div class="menu-list-pressed">
                     <ul class="ab-main-menu">
-						<li><a href="#/">Главная</a></li>
+						<li><a href="/">Главная</a></li>
 						<li><a href="#galery">Галерея</a></li>
 						<li><a href="#akcii">Акции</a></li>
 						<li><a href="#news">Новости</a></li>

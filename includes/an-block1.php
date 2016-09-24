@@ -1,5 +1,5 @@
 <!-- <object data="img/az-map.svg" type="image/svg+xml" id="imap"></object> -->
-
+<a name="plan"></a>
 <section class='az-map'>
 	<div class="container">
 		<h2>план микрорайона</h2>
