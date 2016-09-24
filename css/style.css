@@ -160,6 +160,15 @@ strong {
   width: 100%;
   padding: 25px 0px;
   text-align: center; }
+  .footer .developer a {
+    display: inline-block;
+    background: url(../img/developer.png) left center no-repeat;
+    color: #fff;
+    text-decoration: underline;
+    line-height: 16px;
+    padding-left: 50px;
+    font-size: 12px;
+    font-family: "RobotoRegular"; }
   .footer .counter {
     margin-bottom: 17px;
     margin-top: 35px; }
@@ -471,6 +480,8 @@ input, textarea {
   .ab-main-menu li a:hover:before, .ab-main-menu li a:hover:after {
     content: "";
     animation: none; }
+.ab-main-menu .active {
+  background: #6DB756; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -511,6 +522,11 @@ input, textarea {
   .contacts {
     padding: 60px 0px;
     text-align: left; }
+    .contacts a {
+      color: #fff;
+      text-decoration: none; }
+    .contacts a:hover {
+      text-decoration: underline; }
     .contacts .ho-contact-box .map-box {
       min-height: 350px; }
     .contacts .ho-contact-box .desc {

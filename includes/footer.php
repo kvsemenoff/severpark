@@ -9,15 +9,15 @@
 					<img src="img/counter.png" alt="">
 				</div>
 				<div class="developer">
-					<a href="#"><img src="img/developer.png" alt=""></a>
+					<a href="#">Создание <br> сайтов</a>
 				</div>
 			</div>
 			
 		</div>
 	</div>
 </section>
-<a href="#zvonok" name="modal" class="button-fix-1"></a>
-<a href="#message" name="modal" class="button-fix-2"></a>
+<a href="#zvonok" name="modal" class="button-fix-1 hidden-sm hidden-xs"></a>
+<a href="#message" name="modal" class="button-fix-2 hidden-sm hidden-xs"></a>
 
 
 <div id="mask"></div>
