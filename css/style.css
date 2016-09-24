@@ -330,7 +330,7 @@ input, textarea {
   top: 0px;
   width: 100%; }
 
-#map {
+#map1, #map2 {
   width: 100%;
   min-height: 350px; }
 

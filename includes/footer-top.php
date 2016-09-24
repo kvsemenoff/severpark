@@ -79,22 +79,22 @@
 			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="ho-contact-box">
 					<div class="map-box">
-						<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+						
 						<script type="text/javascript">
 						   ymaps.ready(init);
-						     var myMap,
-						         myPlacemark;
+						     var myMap1,
+						         myPlacemark1;
 
 						     function init(){     
-						         myMap = new ymaps.Map("map", {
+						         myMap1 = new ymaps.Map("map1", {
 						             center: [55.73521577724309,37.6503515],
 						             zoom: 16,
 						             controls: []
 						         });
 
-						        myMap.behaviors.disable('scrollZoom'); 
+						        myMap1.behaviors.disable('scrollZoom'); 
 
-						         var myPlacemark = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
+						         var myPlacemark1 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
 						          iconLayout: 'default#image',
 						          iconImageHref: '/img/balun.png',
 						          iconImageSize: [48, 57],
@@ -102,10 +102,10 @@
 						      });
 
 
-						         myMap.geoObjects.add(myPlacemark);
+						         myMap1.geoObjects.add(myPlacemark);
 						     }
 						 </script>
-						<div id="map"></div>
+						<div id="map1"></div>
 
 					</div>	
 					<div class="desc">
@@ -120,7 +120,32 @@
 			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="ho-contact-box">
 					<div class="map-box">
-						<img src="img/map2.jpg" alt="">
+						<script type="text/javascript">
+						 	ymaps.ready(init);
+						     var myMap2,
+						         myPlacemark2;
+
+						     function init(){     
+						         myMap2 = new ymaps.Map("map2", {
+						             center: [55.73521577724309,37.6503515],
+						             zoom: 16,
+						             controls: []
+						         });
+
+						        myMap2.behaviors.disable('scrollZoom'); 
+
+						         var myPlacemark2 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
+						          iconLayout: 'default#image',
+						          iconImageHref: '/img/balun.png',
+						          iconImageSize: [48, 57],
+						          iconImageOffset: [-3, -42]
+						      });
+
+
+						         myMap2.geoObjects.add(myPlacemark2);
+						     }
+						 </script>
+						<div id="map2"></div>
 					</div>	
 					<div class="desc">
 						<span class="title"><strong>Информационный центр микрорайона “СЕВЕРНЫЙ ПАРК”:</strong></span>
