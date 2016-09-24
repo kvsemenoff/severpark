@@ -166,6 +166,7 @@ $padding_top_bottom_mobile: 25px;
     }
 }
 .ah-infowrap1{
+    position: relative;
     width: 100%;
     margin-right: 0px;
     margin-bottom: 20px;
@@ -180,6 +181,8 @@ $padding_top_bottom_mobile: 25px;
     margin-top: 20px;
 }
 .ah-info-text{
+    position: absolute;
+    // display: block;
     display: none;
     width: 333px;
     color: #fff;
@@ -220,13 +223,14 @@ $padding_top_bottom_mobile: 25px;
     .ah-infowrap1{
         width: 330px;
         margin-right: 55px;
-        margin-bottom: 122px;
+        margin-bottom: 115px;
     }
     .ah-info{
         padding-top: 98px;
         width: 100%;
         background: url(../img/ah-infofon.jpg) top center no-repeat;
-        height: auto;
+        // background-size: cover;
+        height: 1645px;
     }
     .ah-newsbox{
         margin-bottom: 0px;

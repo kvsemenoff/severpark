@@ -27,6 +27,10 @@ strong{
         
     }
     
+    .ab-wrap-menu{
+        height: 62px;
+    }
+
     .ab-main-menu{
         //text-align: center;
         //padding-left: 10px;
@@ -93,7 +97,8 @@ strong{
         width: 100%;
         background: #AE2E2D;
         color: #FFFFFF;
-        padding: 6px 64px;
+        padding: 6px 26px;
+        //padding: 6px 64px;
         font-family: "RobotoBold";
         font-size: 14px;
         text-transform: uppercase;
@@ -138,6 +143,11 @@ strong{
 
 }
 
+.header-fixed + .anz-menu > .anz-menu-ch{
+        outline: 1px solid red;
+        
+        
+    }
 
 
 /*==========  Mobile First Method  ==========*/
@@ -162,8 +172,10 @@ strong{
     .header-fixed + .container{
         //outline: 1px solid red;
         padding-top: 85px;
+
         
     }
+
     .ab-wrap-header{
         width: 100%;
         height: 1049px;
@@ -218,6 +230,9 @@ strong{
         left: 406px;
         position: absolute;
         top: 214px;
+    }
+    .ab-button a{
+        padding: 6px 64px !important;
     }
     .ab-green-fon{
         text-align: left !important;
