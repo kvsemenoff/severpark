@@ -19,6 +19,7 @@
 	
 
 	<meta content="telephone=no" name="format-detection"/>
+	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	
 
 </head>

@@ -79,7 +79,34 @@
 			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="ho-contact-box">
 					<div class="map-box">
-						<img src="img/map1.jpg" alt="">
+						
+						<script type="text/javascript">
+						   ymaps.ready(init);
+						     var myMap1,
+						         myPlacemark1;
+
+						     function init(){     
+						         myMap1 = new ymaps.Map("map1", {
+						             center: [55.73521577724309,37.6503515],
+						             zoom: 16,
+						             controls: []
+						         });
+
+						        myMap1.behaviors.disable('scrollZoom'); 
+
+						         var myPlacemark1 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
+						          iconLayout: 'default#image',
+						          iconImageHref: '/img/balun.png',
+						          iconImageSize: [48, 57],
+						          iconImageOffset: [-3, -42]
+						      });
+
+
+						         myMap1.geoObjects.add(myPlacemark);
+						     }
+						 </script>
+						<div id="map1"></div>
+
 					</div>	
 					<div class="desc">
 						<span class="title"><strong>Офис продаж микрорайона “СЕВЕРНЫЙ ПАРК”:</strong></span>
@@ -93,7 +120,32 @@
 			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="ho-contact-box">
 					<div class="map-box">
-						<img src="img/map2.jpg" alt="">
+						<script type="text/javascript">
+						 	ymaps.ready(init);
+						     var myMap2,
+						         myPlacemark2;
+
+						     function init(){     
+						         myMap2 = new ymaps.Map("map2", {
+						             center: [55.73521577724309,37.6503515],
+						             zoom: 16,
+						             controls: []
+						         });
+
+						        myMap2.behaviors.disable('scrollZoom'); 
+
+						         var myPlacemark2 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
+						          iconLayout: 'default#image',
+						          iconImageHref: '/img/balun.png',
+						          iconImageSize: [48, 57],
+						          iconImageOffset: [-3, -42]
+						      });
+
+
+						         myMap2.geoObjects.add(myPlacemark2);
+						     }
+						 </script>
+						<div id="map2"></div>
 					</div>	
 					<div class="desc">
 						<span class="title"><strong>Информационный центр микрорайона “СЕВЕРНЫЙ ПАРК”:</strong></span>
@@ -127,11 +179,11 @@
 					<input type="text" placeholder="Ваш email" name="email">
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-md-10 col-sm-12 col-xs-12">
+				<div class="col-md-8 col-sm-12 col-xs-12">
 					<textarea placeholder="Ваш комментарий"></textarea>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
-					<input type="submit" id="form1_submit" class="submit" value="">
+					<input type="submit" id="form1_submit" class="submit" value="Оставить заявку">
 				</div>
 			</form>
 		</div>

@@ -4,9 +4,9 @@
 	    <div class="container">
 		    <div class="row">
 				<div class="col-md-6 col-sm-6 col-xs-12">
-					<h2>АКЦИИ</h2>
+					<h2 class="ah-h2">АКЦИИ</h2>
 					<div class="ah-akcibox">
-						<img src="img/ah-akcii1.jpg" alt="ah-ah-akcii1">
+						<img src="img/ah-akcii1.jpg" class="img-responsive" alt="ah-ah-akcii1">
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12">
