@@ -13,10 +13,7 @@
 							</div>
 							<a href="#" class="ah-info-link">Дома из кирпича</a>
 							<div class="ah-info-text">
-								111111111111111111111111111111<br>
-								111111111111111111111111111111<br>
-								111111111111111111111111111111<br>
-								111111111111111111111111111111<br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam expedita consectetur odio excepturi autem, quia, consequuntur aut doloribus, molestias nostrum at ratione ullam. Molestias quibusdam rem earum voluptatem voluptate.
 							</div>
 						</div>
 						<div class="ah-infowrap1">
@@ -25,10 +22,7 @@
 							</div>
 							<a href="#" class="ah-info-link">Чистый воздух</a>
 							<div class="ah-info-text">
-								222222222222222222222222222222<br>
-								222222222222222222222222222222<br>
-								222222222222222222222222222222<br>
-								222222222222222222222222222222<br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam expedita consectetur odio excepturi autem, quia, consequuntur aut doloribus, molestias nostrum at ratione ullam. Molestias quibusdam rem earum voluptatem voluptate.
 							</div>
 						</div>
 						<div class="ah-infowrap1">
@@ -37,10 +31,7 @@
 							</div>
 							<a href="#" class="ah-info-link">Прогулки и спорт</a>
 							<div class="ah-info-text">
-								3333333333333333333333333333333<br>
-								3333333333333333333333333333333<br>
-								3333333333333333333333333333333<br>
-								3333333333333333333333333333333<br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam expedita consectetur odio excepturi autem, quia, consequuntur aut doloribus, molestias nostrum at ratione ullam. Molestias quibusdam rem earum voluptatem voluptate.
 							</div>
 						</div>
 						<div class="ah-infowrap1">
