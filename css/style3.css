@@ -237,7 +237,8 @@
 
   .az-block2 {
     background: url(../img/az-block2.jpg) no-repeat top center;
-    padding: 109px 0px; }
+    padding: 109px 0px;
+    background-size: cover; }
     .az-block2 h2 {
       text-align: left; }
 
