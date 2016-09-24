@@ -224,11 +224,12 @@ $padding_top_bottom_mobile: 25px;
     .ah-info-text{
         position: absolute;
         display: none;
-        width: 333px;
+        width: 388px;
         color: #fff;
         font-family: "RobotoRegular";
         font-size: 14px;
         line-height: 24px;
+        transform: translate(0%, 0);
     }
     .ah-info-list{
         margin-top: 103px;
