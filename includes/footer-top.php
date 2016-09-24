@@ -85,6 +85,10 @@
 						     var myMap1,
 						         myPlacemark1;
 
+						     var myMap2,
+						         myPlacemark2;
+
+
 						     function init(){     
 						         myMap1 = new ymaps.Map("map1", {
 						             center: [55.73521577724309,37.6503515],
@@ -101,8 +105,22 @@
 						          iconImageOffset: [-3, -42]
 						      });
 
+								myMap2 = new ymaps.Map("map2", {
+						             center: [55.73521577724309,37.6503515],
+						             zoom: 16,
+						             controls: []
+						         });
 
-						         myMap1.geoObjects.add(myPlacemark);
+						        myMap2.behaviors.disable('scrollZoom'); 
+
+						         var myPlacemark2 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
+						          iconLayout: 'default#image',
+						          iconImageHref: '/img/balun.png',
+						          iconImageSize: [48, 57],
+						          iconImageOffset: [-3, -42]
+						      });
+						       	myMap1.geoObjects.add(myPlacemark1);
+						        myMap2.geoObjects.add(myPlacemark2);
 						     }
 						 </script>
 						<div id="map1"></div>
@@ -121,28 +139,14 @@
 				<div class="ho-contact-box">
 					<div class="map-box">
 						<script type="text/javascript">
-						 	ymaps.ready(init);
-						     var myMap2,
-						         myPlacemark2;
+			
+						     
 
 						     function init(){     
-						         myMap2 = new ymaps.Map("map2", {
-						             center: [55.73521577724309,37.6503515],
-						             zoom: 16,
-						             controls: []
-						         });
-
-						        myMap2.behaviors.disable('scrollZoom'); 
-
-						         var myPlacemark2 = new ymaps.Placemark([55.73521577724309,37.6503515], {}, {
-						          iconLayout: 'default#image',
-						          iconImageHref: '/img/balun.png',
-						          iconImageSize: [48, 57],
-						          iconImageOffset: [-3, -42]
-						      });
+						         
 
 
-						         myMap2.geoObjects.add(myPlacemark2);
+						        
 						     }
 						 </script>
 						<div id="map2"></div>

@@ -21,6 +21,7 @@ $padding_top_bottom_mobile: 25px;
 }
 .az-block2-inner{
 	margin-top: 40px;
+	margin-bottom: 20px;
 }
 .az-block2-item{
 	padding: 15px;
@@ -40,7 +41,7 @@ $padding_top_bottom_mobile: 25px;
 	.az-text{
 		font-family: "RobotoRegular";
 		font-size: 18px;
-		line-height: 40px;
+		line-height: 30px;
 		strong{
 			font-family: "RobotoBold";
 			color: #003366;
@@ -93,7 +94,7 @@ $padding_top_bottom_mobile: 25px;
 		position: absolute;
 		width: 82.4%;
 	    height: 87.3%;
-	    left: 8.9%;
+	    left: 8.8%;
 	    top: 5.4%;
 	}
 }
@@ -125,6 +126,13 @@ $padding_top_bottom_mobile: 25px;
 .az-button2:hover{
 	background: #99ff66;
 }
+
+.margin-top23{
+	margin-top: 23px;
+}
+.margin-top30{
+	margin-top: 30px;
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -153,12 +161,12 @@ $padding_top_bottom_mobile: 25px;
 		text-shadow: 0px 1px 1px #333;
 		font-size: 32px;
 		background-color: linear-gradient(to top, #669933, #66cc33);
-		padding: 0px 0px 0px 20px;
+		padding: 0px 0px 0px 36px;
 		display: block; 
 		color: #fff;
 		text-transform: uppercase;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 43px;
+		margin-bottom: 43px;
 		max-width: 560px;
 		position: relative;
 		br{
@@ -178,6 +186,7 @@ $padding_top_bottom_mobile: 25px;
 	}
 	.az-block3{
 		text-align: left;
+		padding: $padding_top_bottom_desktop 15px;
 	}
    .az-alert{
 		display: none;
@@ -236,7 +245,7 @@ $padding_top_bottom_mobile: 25px;
 		#imap{
 			svg{
 				position: absolute;
-				top: 72px;
+				top: 68px;
 				left: calc(48% - 65px);
 				transform: translate(-48%, 0);
 			}
@@ -244,7 +253,11 @@ $padding_top_bottom_mobile: 25px;
 			
 		}
 	}
-
+.az-block4{
+	text-align: center;
+	padding: $padding_top_bottom_desktop 15px;
+	background: url(../img/az-block4.jpg) no-repeat top center;
+}
 
 
 }
@@ -265,14 +278,14 @@ $padding_top_bottom_mobile: 25px;
 	}
 	.az-block2{
 		background: url(../img/az-block2.jpg) no-repeat top center;
-		padding: $padding_top_bottom_desktop 0px;
+		padding: 109px 0px;
 		h2{
 			text-align: left;
 		}
 	}
 	.az-block2-inner{
-		margin-top: 90px;
-		margin-bottom: 60px;
+		margin-top: 74px;
+		margin-bottom: 14px;
 	}
 }
 
