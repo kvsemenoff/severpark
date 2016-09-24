@@ -26,6 +26,9 @@
     height: 100%;
     min-height: 100%;
     border-right: 1px solid white; }
+    .ab-wrap-header .ab-main-menu li a {
+      display: inline-block;
+      padding: 0px 5px; }
   .ab-wrap-header .ab-main-menu a {
     font-size: 16px;
     color: #F3F8FF;
