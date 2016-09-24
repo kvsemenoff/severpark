@@ -1,3 +1,4 @@
+<a name="video"></a>
 <section class="az-block3">
 	<div class="container">
 		<h2>видео</h2>
