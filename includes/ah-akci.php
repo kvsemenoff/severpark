@@ -1,5 +1,6 @@
 <div class="clearfix"></div>
 
+<a name="akcii"></a>
 <section class="ah-akci">
 	    <div class="container">
 		    <div class="row">
