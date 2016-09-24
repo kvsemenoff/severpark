@@ -36,6 +36,9 @@ $padding_top_bottom_mobile: 25px;
     right: 0px;
     border-radius: 35px;
 }
+.ah-imgbox{
+    max-height: none;
+}
 // ****************** SLIDER *******************
 // ****************** Akci *******************
 .ah-h2{
@@ -170,9 +173,11 @@ $padding_top_bottom_mobile: 25px;
     width: 100%;
     margin-right: 0px;
     margin-bottom: 20px;
+    text-align: center;
+    padding: 0px;
 }
 .ah-info-link{
-    display: block;
+    display: inline-block;
     font-family: "RobotoBold";
     color: #78d755;
     font-size: 30px;
@@ -181,14 +186,13 @@ $padding_top_bottom_mobile: 25px;
     margin-top: 20px;
 }
 .ah-info-text{
-    position: absolute;
-    // display: block;
+    // position: absolute;
     display: none;
-    width: 333px;
-    color: #fff;
-    font-family: "RobotoRegular";
-    font-size: 14px;
-    line-height: 24px;
+    // width: 333px;
+    // color: #fff;
+    // font-family: "RobotoRegular";
+    // font-size: 14px;
+    // line-height: 24px;
 }
 // ****************** ah-info *******************
 
@@ -214,6 +218,18 @@ $padding_top_bottom_mobile: 25px;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .ah-imgbox{
+        max-height: 327px;
+    }
+    .ah-info-text{
+        position: absolute;
+        display: none;
+        width: 333px;
+        color: #fff;
+        font-family: "RobotoRegular";
+        font-size: 14px;
+        line-height: 24px;
+    }
     .ah-info-list{
         margin-top: 103px;
     }
@@ -224,13 +240,14 @@ $padding_top_bottom_mobile: 25px;
         width: 330px;
         margin-right: 55px;
         margin-bottom: 115px;
+        padding: 0px 20px;
     }
     .ah-info{
         padding-top: 98px;
         width: 100%;
         background: url(../img/ah-infofon.jpg) top center no-repeat;
-        // background-size: cover;
-        height: 1645px;
+        background-size: cover;
+        // height: auto;
     }
     .ah-newsbox{
         margin-bottom: 0px;
@@ -276,7 +293,7 @@ $padding_top_bottom_mobile: 25px;
         padding: 49px 0px;
     }
     .item {
-        transform: translate3d(-992.5px, 0px, 0px);
+        transform: translate3d(-50%, 0px, 0px);
     }
     .arrow-left{
         padding: 33px;

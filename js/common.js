@@ -17,10 +17,10 @@ $(document).ready(function(){
 
     $('.ah-slidbox').owlCarousel({
         loop: true,
-        margin:7,
+        margin:5,
         items: 2,
         nav: true,
-        autoplay:true,
+        autoplay: true,
         smartSpeed:1000,
         autoplayTimeout:500,
        
