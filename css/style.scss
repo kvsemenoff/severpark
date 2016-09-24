@@ -209,6 +209,18 @@ strong{
     width: 100%;
     padding: $padding_top_bottom_mobile 0px;
     text-align: center;
+    .developer{
+        a{
+            display: inline-block;
+            background: url(../img/developer.png) left center no-repeat;
+            color: #fff;
+            text-decoration: underline;
+            line-height: 16px;
+            padding-left: 50px;
+            font-size: 12px;
+            font-family: "RobotoRegular";
+        }
+    }
     .counter{
         margin-bottom: 17px;
         margin-top: 35px;
@@ -494,9 +506,16 @@ input, textarea{
     top: 0px;
     z-index: 1000;
     color: #fff;
+<<<<<<< HEAD
     background: #009FE3;//#ffd4a5;
     border: 1px solid #828089;
     box-shadow: 0px 0px 5px #828089;
+=======
+    background: #009FE3;
+
+   // border: 1px solid #828089;
+    //box-shadow: 0px 0px 5px #828089;
+>>>>>>> f448bac080c70f577b7903bcaa560d4e2fd4e8c9
 }
 
    
@@ -567,6 +586,8 @@ input, textarea{
         width: 250px;
         height: 100%;
         top: 0px;
+        //background: red;
+        //background: #009FE3;
     }
 
     .menu-list-pressed {
@@ -577,8 +598,8 @@ input, textarea{
         z-index: 1000;
         color: #fff;
         background: white;
-        border: 1px solid #828089;
-        box-shadow: 0px 0px 5px #828089;
+        background: #009FE3;
+       
     }
     .ab-main-menu{
         
@@ -604,6 +625,9 @@ input, textarea{
         }
         li:hover{
             
+        }
+        .active{
+            background: #6DB756;
         }
     }
 
@@ -682,6 +706,13 @@ input, textarea{
     .contacts{
         padding: $padding_top_bottom_desctop 0px;
         text-align: left;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
         .ho-contact-box{
            
             .map-box{
