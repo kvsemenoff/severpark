@@ -494,9 +494,10 @@ input, textarea{
     top: 0px;
     z-index: 1000;
     color: #fff;
-    background: white;//#ffd4a5;
-    border: 1px solid #828089;
-    box-shadow: 0px 0px 5px #828089;
+    background: #009FE3;
+
+   // border: 1px solid #828089;
+    //box-shadow: 0px 0px 5px #828089;
 }
 
    
@@ -567,6 +568,8 @@ input, textarea{
         width: 250px;
         height: 100%;
         top: 0px;
+        //background: red;
+        //background: #009FE3;
     }
 
     .menu-list-pressed {
@@ -577,8 +580,8 @@ input, textarea{
         z-index: 1000;
         color: #fff;
         background: white;
-        border: 1px solid #828089;
-        box-shadow: 0px 0px 5px #828089;
+        background: #009FE3;
+       
     }
     .ab-main-menu{
         
