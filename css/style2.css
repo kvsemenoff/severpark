@@ -155,10 +155,8 @@
 .ah-infowrap1 {
   position: relative;
   width: 100%;
-  margin-right: 0px;
   margin-bottom: 20px;
-  text-align: center;
-  padding: 0px; }
+  text-align: center; }
 
 .ah-info-link {
   display: inline-block;
@@ -197,10 +195,8 @@
     margin-top: 42px; }
 
   .ah-infowrap1 {
-    width: 330px;
-    margin-right: 55px;
-    margin-bottom: 115px;
-    padding: 0px 20px; }
+    width: 388px;
+    margin-bottom: 115px; }
 
   .ah-info {
     padding-top: 98px;
