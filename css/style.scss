@@ -9,10 +9,12 @@ $padding_top_bottom_mobile: 25px;
 @import "fonts.css";
 
 h2{
+    display: block;
     color: #fff;
     font-family: "RobotoRegular";
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 strong{
@@ -42,7 +44,7 @@ strong{
     background-size: cover;
     text-align: center;
     .kupit-inner{
-        padding-top: 25px;
+        //padding-top: 25px;
         .ho-staf{
             position: relative;
             .ho-main{
@@ -397,9 +399,17 @@ input, textarea{
     z-index: 99999;
 }
 
+.header-fixed{
+    position: fixed;
+    z-index: 999999;
+    top: 0px;
+    width: 100%;
+}
 
-
-
+#map{
+    width: 100%;
+    min-height: 350px;
+}
 
 
 /*==========  Mobile First Method  ==========*/

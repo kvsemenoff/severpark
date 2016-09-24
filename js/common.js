@@ -2,27 +2,16 @@
 $(document).ready(function(){
 
 
-
-
-
-
-
-    //funcun = function(){$('.menu-list-pressed').css({'animation-duration': '1s'});}
-    //setTimeout(funcun,1000);
-
     $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
-
-
 
     // ***************************************** ah *****************************************************
 
-$('.ah-block3-button').click(function(e) {
-    e.preventDefault();
-    $(".ah-wrapper-box").removeClass('ah-wrapper-box');
-    $(this).addClass('ah-wrapper-box');
-    
-});
-
+    $('.ah-block3-button').click(function(e) {
+        e.preventDefault();
+        $(".ah-wrapper-box").removeClass('ah-wrapper-box');
+        $(this).addClass('ah-wrapper-box');
+        
+    });
 
     // ****************************************** ah-slider ****************************************************
 
@@ -291,3 +280,38 @@ setTimeout("funccc();",1000);
 setTimeout("funccccc();",500);
 
 });
+
+
+
+
+function navigation_scroll(){
+    var offset = $('.ab-wrap-menu').height() || $(window).height() || 50;
+    var scroll = $(document).scrollTop();
+
+    if (scroll < 100) {
+        $('.ab-wrap-menu')
+            .toggleClass('header-no-fixed', false)
+             .toggleClass('header-fixed', false);
+       
+            
+           
+     }     
+    else if (scroll >= offset) {
+        $('.ab-wrap-menu')
+            .toggleClass('header-no-fixed', false)
+            .toggleClass('header-fixed', true);
+            
+    }
+    else if (scroll < offset - 50) {
+        $('.ab-wrap-menu')
+            .toggleClass('header-fixed', true)
+            .toggleClass('header-no-fixed', false);
+            
+    }
+}
+
+
+$(document).scroll(function(){
+    navigation_scroll();
+});
+
