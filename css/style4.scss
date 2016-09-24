@@ -161,8 +161,8 @@ strong{
 @media only screen and (min-width : 992px) {
     .header-fixed + .container{
         //outline: 1px solid red;
-        top: 95px;
-        position: absolute;
+        padding-top: 85px;
+        
     }
     .ab-wrap-header{
         width: 100%;
