@@ -115,8 +115,11 @@
 
 <script>
 	$(function(){
-		$('.ah-info-link').hover(function(e) {
-        	$(this).parent().find('.ah-info-text').toggle();
-	    });
+		if(window.matchMedia('(min-width : 480px)').matches)
+	    {
+			$('.ah-info-link').hover(function(e) {
+	        	$(this).parent().find('.ah-info-text').toggle();
+		    });
+		}
 	});
 </script>
