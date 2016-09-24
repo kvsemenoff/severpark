@@ -551,7 +551,10 @@ input, textarea {
       font-size: 60px;
       margin-bottom: 75px; }
     .common-form .zv-label {
-      width: 70%; } }
+      width: 70%; }
+
+  .ab-main-menu li {
+    cursor: pointer; } }
 /* Large Devices, Wide Screens */
 /***************/
 
