@@ -1,3 +1,4 @@
+<a name="planirovka"></a>
 <section class="az-block2">
 	<div class="container">
 		<h2>планировки и цены</h2>

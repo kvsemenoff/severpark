@@ -1,5 +1,6 @@
 <div class="clearfix"></div>
 
+<a name="news"></a>
 <section class="ah-news">
     <div class="container">
 	    <div class="row">
