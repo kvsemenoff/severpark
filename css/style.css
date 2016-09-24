@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(reset.css);
 @import url(style2.css);
 @import url(style3.css);
@@ -406,6 +405,9 @@ input, textarea {
   top: 0px;
   z-index: 1000;
   color: #fff;
+  background: #009FE3;
+  border: 1px solid #828089;
+  box-shadow: 0px 0px 5px #828089;
   background: #009FE3; }
 
 .anz-mobile {
@@ -560,51 +562,3 @@ input, textarea {
 /***************/
 
 /*# sourceMappingURL=style.css.map */
-=======
-/*
-Error: Invalid CSS after "...ground: #009FE3": expected "{", was ";//#ffd4a5;"
-        on line 510 of Z:\home\severpark.loc\www\severpark\css\style.scss
-
-505:     height: 100%;
-506:     top: 0px;
-507:     z-index: 1000;
-508:     color: #fff;
-509: <<<<<<< HEAD
-510:     background: #009FE3;//#ffd4a5;
-511:     border: 1px solid #828089;
-512:     box-shadow: 0px 0px 5px #828089;
-513: =======
-514:     background: #009FE3;
-515: 
-
-Backtrace:
-Z:\home\severpark.loc\www\severpark\css\style.scss:510
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-C:/Program Files/Koala/bin/sass:18:in `load'
-C:/Program Files/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ground: #009FE3\": expected \"{\", was \";//#ffd4a5;\"\A         on line 510 of Z:\home\severpark.loc\www\severpark\css\style.scss\A \A 505:     height: 100%;\A 506:     top: 0px;\A 507:     z-index: 1000;\A 508:     color: #fff;\A 509: <<<<<<< HEAD\A 510:     background: #009FE3;//#ffd4a5;\A 511:     border: 1px solid #828089;\A 512:     box-shadow: 0px 0px 5px #828089;\A 513: =======\A 514:     background: #009FE3;\A 515: "; }
->>>>>>> 2ae638af3b4084ed6aa36cc70da2681d491651d3

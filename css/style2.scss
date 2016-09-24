@@ -229,7 +229,6 @@ $padding_top_bottom_mobile: 25px;
     /*.ah-info-text{
         //position: absolute;
         display: none;
-<<<<<<< HEAD
         width: 333px;
         //color: #fff !important;
         font-family: "RobotoRegular";
@@ -237,7 +236,7 @@ $padding_top_bottom_mobile: 25px;
         line-height: 24px;
         padding-left: 55px;
     }*/
-=======
+    .ah-info-text{
         width: 388px;
         color: #fff;
         font-family: "RobotoRegular";
@@ -245,7 +244,6 @@ $padding_top_bottom_mobile: 25px;
         line-height: 24px;
         transform: translate(0%, 0);
     }
->>>>>>> f448bac080c70f577b7903bcaa560d4e2fd4e8c9
     .ah-info-list{
         margin-top: 103px;
     }

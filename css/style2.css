@@ -1,48 +1,289 @@
-/*
-Error: Invalid CSS after "...   width: 388px": expected "{", was ";"
-        on line 241 of Z:\home\severpark.loc\www\severpark\css\style2.scss
+.ah-slider {
+  width: 100%; }
 
-236:         font-size: 14px;
-237:         line-height: 24px;
-238:         padding-left: 55px;
-239:     }*\/
-240: =======
-241:         width: 388px;
-242:         color: #fff;
-243:         font-family: "RobotoRegular";
-244:         font-size: 14px;
-245:         line-height: 24px;
-246:         transform: translate(0%, 0);
+.item {
+  position: relative; }
 
-Backtrace:
-Z:\home\severpark.loc\www\severpark\css\style2.scss:241
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:401:in `media_directive'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:219:in `special_directive'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:194:in `directive'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-C:/Program Files/Koala/bin/sass:18:in `load'
-C:/Program Files/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...   width: 388px\": expected \"{\", was \";\"\A         on line 241 of Z:\home\severpark.loc\www\severpark\css\style2.scss\A \A 236:         font-size: 14px;\A 237:         line-height: 24px;\A 238:         padding-left: 55px;\A 239:     }*/\A 240: =======\A 241:         width: 388px;\A 242:         color: #fff;\A 243:         font-family: \"RobotoRegular\";\A 244:         font-size: 14px;\A 245:         line-height: 24px;\A 246:         transform: translate(0%, 0);"; }
+.arrow-left {
+  position: absolute;
+  display: block;
+  padding: 26px;
+  background-image: url(../img/ah-arrowleft.png);
+  background-color: #fff;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-position: center center;
+  bottom: 50px;
+  left: 0px;
+  border-radius: 35px; }
+
+.arrow-right {
+  position: absolute;
+  display: block;
+  padding: 26px;
+  background-image: url(../img/ah-arrowright.png);
+  background-color: #fff;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-position: center center;
+  bottom: 50px;
+  right: 0px;
+  border-radius: 35px; }
+
+.ah-imgbox {
+  max-height: none; }
+
+.ah-h2 {
+  text-align: center; }
+
+.ah-h21 {
+  text-align: center;
+  color: #009fe3;
+  margin-bottom: 20px; }
+
+.ah-akci {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: url(../img/ah-akcii-fon.jpg) top center no-repeat; }
+
+.ah-akcibox {
+  margin-top: 20px; }
+
+.ah-akci-span {
+  display: block;
+  font-family: "RobotoRegular";
+  color: #fff;
+  font-size: 47px;
+  margin-top: 20px;
+  background-color: #aa2521;
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+.ah-akci-span1 {
+  display: block;
+  font-family: "RobotoRegular";
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: #aa2521;
+  text-align: center;
+  padding-left: 0px; }
+  .ah-akci-span1 span {
+    font-family: "RobotoBlack"; }
+
+.ah-akci-link {
+  display: block;
+  font-family: "RobotoRegular";
+  font-size: 22px;
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 0px;
+  margin-top: 10px;
+  text-align: center; }
+
+.ah-newsbox {
+  margin-bottom: 20px; }
+  .ah-newsbox img {
+    margin: 0 auto; }
+
+.ah-news {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: url(../img/ah-newsfon.png) top center repeat-x; }
+
+.ah-news-span {
+  display: block;
+  font-family: "RobotoBold";
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #009fe3;
+  padding: 5px 12px; }
+
+.ah-news-span1, .ah-news-text {
+  display: block;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  line-height: 24px; }
+
+.ah-news-span1 {
+  color: #a3a2a2;
+  margin-bottom: 20px; }
+
+.ah-news-text {
+  color: #000;
+  margin-bottom: 20px; }
+
+.ah-news-link {
+  display: block;
+  font-family: "RobotoCondensed";
+  color: #009fe3;
+  font-size: 18px;
+  background: url(../img/ah-news-icon.jpg) left center no-repeat;
+  padding-left: 20px; }
+
+.ah-info {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #4d5056;
+  width: 100%;
+  height: auto; }
+
+.ah-info:before {
+  position: absolute;
+  content: "";
+  background: url(../img/menu_separat.png);
+  background-color: #000;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px; }
+
+.ah-info-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-top: 20px; }
+
+.ah-infobox {
+  margin-bottom: 40px; }
+  .ah-infobox img {
+    margin: 0 auto; }
+
+.ah-infowrap1 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.ah-info-link {
+  display: inline;
+  font-family: "RobotoBold";
+  color: #78d755;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px dashed #78d755;
+  margin-top: 20px; }
+
+.ah-info-link_style2 {
+  margin-top: 0px;
+  padding-top: 20px; }
+
+.ah-info-text {
+  display: none;
+  width: 280px;
+  color: white;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  line-height: 24px; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .ah-imgbox {
+    max-height: 327px; }
+
+  /*.ah-info-text{
+      //position: absolute;
+      display: none;
+      width: 333px;
+      //color: #fff !important;
+      font-family: "RobotoRegular";
+      font-size: 14px;
+      line-height: 24px;
+      padding-left: 55px;
+  }*/
+  .ah-info-text {
+    width: 388px;
+    color: #fff;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 24px;
+    transform: translate(0%, 0); }
+
+  .ah-info-list {
+    margin-top: 103px; }
+
+  .ah-info-link {
+    margin-top: 42px; }
+
+  .ah-info-link_style2 {
+    margin-top: 0px;
+    padding-top: 20px; }
+
+  .ah-infowrap1 {
+    width: 388px;
+    margin-bottom: 115px; }
+
+  .ah-info {
+    padding-top: 98px;
+    width: 100%;
+    background: url(../img/ah-infofon.jpg) top center no-repeat;
+    background-size: cover; }
+
+  .ah-newsbox {
+    margin-bottom: 0px; }
+
+  .ah-news-span1 {
+    margin-bottom: 23px; }
+
+  .ah-news {
+    padding-top: 88px;
+    padding-bottom: 55px; }
+
+  .ah-h2 {
+    text-align: left; }
+
+  .ah-h21 {
+    text-align: left;
+    margin-bottom: 49px; }
+
+  .ah-akci-link {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: left; }
+
+  .ah-akci-span1 {
+    text-align: left;
+    padding-left: 17px;
+    font-size: 56px;
+    width: 541px;
+    height: 80px; }
+
+  .ah-akci-span {
+    width: 397px;
+    height: 80px;
+    font-size: 60px;
+    margin-top: 117px;
+    padding: 0px 14px;
+    text-align: left; }
+
+  .ah-akcibox {
+    margin-top: 38px; }
+
+  .ah-akci {
+    padding: 49px 0px; }
+
+  .item {
+    transform: translate3d(-50%, 0px, 0px); }
+
+  .arrow-left {
+    padding: 33px;
+    bottom: 150px;
+    left: 240px; }
+
+  .arrow-right {
+    padding: 33px;
+    bottom: 150px;
+    right: 240px; } }
+/* Large Devices, Wide Screens */
+/***************/
+
+/*# sourceMappingURL=style2.css.map */
