@@ -149,8 +149,10 @@
   justify-content: flex-start;
   margin-top: 20px; }
 
-.ah-infobox img {
-  margin: 0 auto; }
+.ah-infobox {
+  margin-bottom: 40px; }
+  .ah-infobox img {
+    margin: 0 auto; }
 
 .ah-infowrap1 {
   position: relative;
@@ -159,7 +161,7 @@
   text-align: center; }
 
 .ah-info-link {
-  display: inline-block;
+  display: inline;
   font-family: "RobotoBold";
   color: #78d755;
   font-size: 30px;
@@ -172,7 +174,12 @@
   padding-top: 20px; }
 
 .ah-info-text {
-  display: none; }
+  display: none;
+  width: 280px;
+  color: white;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  line-height: 24px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -183,15 +190,16 @@
   .ah-imgbox {
     max-height: 327px; }
 
-  .ah-info-text {
-    display: none;
-    width: 333px;
-    color: #fff;
-    font-family: "RobotoRegular";
-    font-size: 14px;
-    line-height: 24px;
-    padding-left: 55px; }
-
+  /*.ah-info-text{
+      //position: absolute;
+      display: none;
+      width: 333px;
+      //color: #fff !important;
+      font-family: "RobotoRegular";
+      font-size: 14px;
+      line-height: 24px;
+      padding-left: 55px;
+  }*/
   .ah-info-list {
     margin-top: 103px; }
 

@@ -133,7 +133,7 @@
 						<br>
 						<span class="address">г. Томск, ул. Иркутский тракт, 27 </span>
 						<span class="tel">Тел.: 75-03-57 </span>
-						<aspan class="email">E-mail: sever@gkkarier.ru</aspan>
+						<aspan class="email"><a href="mailto:">E-mail: sever@gkkarier.ru</a></aspan>
 					</div>
 				</div>		
 			</div>
