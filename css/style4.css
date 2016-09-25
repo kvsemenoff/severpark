@@ -33,8 +33,7 @@
     font-size: 16px;
     color: #F3F8FF;
     font-family: "RobotoBold";
-    text-transform: uppercase;
-    display: inline-block; }
+    text-transform: uppercase; }
   .ab-wrap-header .ab-main-menu li:hover {
     background: #6DB756; }
   .ab-wrap-header .ab-wrap-menu {

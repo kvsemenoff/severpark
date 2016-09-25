@@ -11,15 +11,20 @@ $(document).ready(function(){
     //         } 
     //     });      
     // });
-    
+    $(".ab-main-menu li").click(function(){
+       // alert('d');
+        $(this).children('a').trigger('click');
+    });
    
     $('.ab-main-menu a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-      }     
+        $('.ab-main-menu li').removeClass('active');
+        $(this).parent('li').toggleClass('active');
+        var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+        if($element.length == 1) { 
+            $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+        }     
     
-      return false;
+        return false;
     });
 
 
