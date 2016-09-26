@@ -41,6 +41,9 @@ $padding_top_bottom_mobile: 25px;
 }
 // ****************** SLIDER *******************
 // ****************** Akci *******************
+.ah-akcih2{
+    margin-bottom: 20px;
+}
 .ah-h2{
     text-align: center;
 }
@@ -54,9 +57,9 @@ $padding_top_bottom_mobile: 25px;
     padding-bottom: $padding_top_bottom_mobile;
     background: url(../img/ah-akcii-fon.jpg) top center no-repeat;
 }
-.ah-akcibox{
-    margin-top: 20px;
-}
+// .ah-akcibox{
+//     margin-top: 20px;
+// }
 .ah-akci-span{
     display: block;
     font-family: "RobotoRegular";
@@ -218,7 +221,9 @@ $padding_top_bottom_mobile: 25px;
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ah-akci-span{ 
+        margin-top: 0px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -300,13 +305,16 @@ $padding_top_bottom_mobile: 25px;
         width: 397px;
         height: 80px;
         font-size: 60px;
-        margin-top: 117px;
+        // margin-top: 117px;
         padding: 0px 14px;
         text-align: left;
     }
-    .ah-akcibox{
-        margin-top: 38px;
+    .ah-akcih2{
+        margin-bottom: 38px;
     }
+    // .ah-akcibox{
+    //     margin-top: 38px;
+    // }
     .ah-akci{
         padding: 49px 0px;
     }
