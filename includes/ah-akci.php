@@ -4,8 +4,13 @@
 <section class="ah-akci">
 	    <div class="container">
 		    <div class="row">
+			    <div class="col-md-12 col-sm-12 col-xs-12">
+				    <h2 class="ah-akcih2">АКЦИИ</h2>
+			    </div>
+			    
+			    <div class="clearfix"></div>
+
 				<div class="col-md-6 col-sm-6 col-xs-12">
-					<h2 class="ah-h2">АКЦИИ</h2>
 					<div class="ah-akcibox">
 						<img src="img/ah-akcii1.jpg" class="img-responsive" alt="ah-ah-akcii1">
 					</div>

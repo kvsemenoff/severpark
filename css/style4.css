@@ -11,7 +11,7 @@
 /* ╨У╨╗╨░╨▓╨╜╨╛╨╡ ╨╝╨╡╨╜╤О */
 .ab-wrap-header {
   width: 100%;
-  background: #DFEFFF;
+  background: url(../img/headphone.jpg) no-repeat center;
   background-size: cover;
   padding-top: 10px; }
   .ab-wrap-header .ab-main-menu li {
@@ -44,15 +44,17 @@
     text-align: center; }
   .ab-wrap-header .ab-phone-number {
     text-align: center; }
-    .ab-wrap-header .ab-phone-number img {
-      display: inline;
-      margin-top: 15px; }
   .ab-wrap-header .first-number, .ab-wrap-header .second-number {
-    font-size: 25px; }
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black; }
   .ab-wrap-header .first-number {
+    display: inline-block;
+    background: url(../img/ab-number.png) no-repeat left center;
     font-family: "RobotoRegular";
-    color: #009FE3; }
+    color: #009FE3;
+    padding-left: 38px; }
   .ab-wrap-header .second-number {
+    display: inline-block;
     font-family: "RobotoBold";
     color: #6DB756; }
   .ab-wrap-header .ab-button {
@@ -103,6 +105,10 @@
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  .first-number, .second-number {
+    font-size: 25px;
+    text-shadow: none !important; }
+
   .ab-wrap-header {
     background: url(../img/headphone.jpg) no-repeat center; } }
 /* Medium Devices, Desktops */
@@ -136,18 +142,17 @@
   .ab-phone-number {
     margin-right: 792px;
     margin-top: 4px; }
-    .ab-phone-number img {
-      left: 214px;
-      top: 175px; }
     .ab-phone-number .first-number {
-      font-size: 36px; }
+      font-size: 36px;
+      display: inline; }
     .ab-phone-number .second-number {
-      font-size: 36px; }
+      font-size: 36px;
+      display: inline; }
 
   .ab-button {
     left: 406px;
     position: absolute;
-    top: 214px; }
+    top: 200px; }
 
   .ab-button a {
     padding: 6px 64px !important; }
