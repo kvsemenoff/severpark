@@ -17,7 +17,8 @@ strong{
 
 .ab-wrap-header{
         width: 100%;
-        background: #DFEFFF;
+        background: url(../img/headphone.jpg) no-repeat center;
+        //background: #DFEFFF;
         background-size: cover;
         padding-top: 10px; 
 
@@ -32,8 +33,6 @@ strong{
     }
 
     .ab-main-menu{
-        //text-align: center;
-        //padding-left: 10px;
         li{
 				display: block;
 		        vertical-align: middle;
@@ -54,11 +53,7 @@ strong{
         color: #F3F8FF;
         font-family: "RobotoBold";
         text-transform: uppercase;
-        display: inline-block;
-        
-        
-
-
+        //display: inline-block;
     } 
 
     .ab-main-menu li:hover{
@@ -77,23 +72,28 @@ strong{
     }
 
     .ab-phone-number{
-        text-align: center;
-        img{
-            display: inline;
-            margin-top: 15px;
-        }
+
+       text-align: center;
+        
     }
 
     .first-number, .second-number{
         font-size: 25px;
+        //display: inline-block;
+
     }
 
     .first-number{
+         display: inline-block;
+         background:url(../img/ab-number.png) no-repeat left center; 
          font-family: "RobotoRegular";
          color: #009FE3;
+         padding-left: 38px;
+         
     }
 
     .second-number{
+        display: inline-block;
         font-family: "RobotoBold";
         color: #6DB756;
     }
@@ -175,7 +175,9 @@ strong{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ab-wrap-header{
+        background: url(../img/headphone.jpg) no-repeat center;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -222,22 +224,20 @@ strong{
     .ab-phone-number {
         margin-right: 792px;
         margin-top: 4px;
-        img {
-            left: 214px;
-            //position: absolute;
-            top: 175px;
-        }
+        
         .first-number{
             font-size: 36px;
+            display: inline;
         }
         .second-number{
             font-size: 36px;
+            display: inline;
         }
     }
     .ab-button{
         left: 406px;
         position: absolute;
-        top: 214px;
+        top: 200px;
     }
     .ab-button a{
         padding: 6px 64px !important;

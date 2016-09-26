@@ -1,11 +1,34 @@
 
 $(document).ready(function(){
+    // $('.ab-main-menu a[href^="#"]').click(function(){ 
+    //      var url=document.location.href;
+            
+    //     $('.ab-main-menu li a').each(function(e) {
+    //    // alert(url+'   '+this.href);
+    //         if (this.href == url){
+
+    //             $(this).addClass('active');  
+    //         } 
+    //     });      
+    // });
+    // Cache selectors
+
+
+
+    $(".ab-main-menu li").click(function(){
+       // alert('d');
+        $(this).children('a').trigger('click');
+    });
+   
     $('.ab-main-menu a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-      }     
-      return false;
+        $('.ab-main-menu li').removeClass('active');
+        $(this).parent('li').toggleClass('active');
+        var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+        if($element.length == 1) { 
+            $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+        }     
+    
+        return false;
     });
 
 
@@ -30,7 +53,7 @@ $(document).ready(function(){
         nav: true,
         autoplay: true,
         smartSpeed:1000,
-        autoplayTimeout:500,
+        autoplayTimeout:5000,
        
         navText:['<span class="arrow-right"></span>','<span class="arrow-left"></span>'],
 
@@ -103,7 +126,36 @@ $(document).ready(function(){
         margin:30,
         responsiveClass:false,
         nav: true,
-        items: 5,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            767:{
+                items:3
+            },
+            850:{
+                items:4
+            },
+            967:{
+                items:5
+            },
+            1067:{
+                items:6
+            },
+            1200:{
+                items:4
+            },
+            1400:{
+                items:5
+            },
+            1600:{
+                items:6
+            }
+        },
         navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
     });
 
@@ -321,5 +373,12 @@ function navigation_scroll(){
 
 $(document).scroll(function(){
     navigation_scroll();
+});
+
+
+
+$(function () {    
+  
+        
 });
 

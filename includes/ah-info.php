@@ -48,7 +48,8 @@
 							<div class="ah-infobox">
 								<img src="img/ah-info5.png" class="img-responsive" alt="ah-info5">
 							</div>
-							<a href="#" class="ah-info-link">Много парковочных<br>мест</a>
+							<a href="#" class="ah-info-link">Много парковочных </a><br>
+							<a href="#" class="ah-info-link ah-info-link_style2">мест</a>
 							<div class="ah-info-text">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam expedita consectetur odio excepturi autem, quia, consequuntur aut doloribus, molestias nostrum at ratione ullam. Molestias quibusdam rem earum voluptatem voluptate.
 							</div>
@@ -84,7 +85,8 @@
 							<div class="ah-infobox">
 								<img src="img/ah-info9.png" class="img-responsive" alt="ah-info9">
 							</div>
-							<a href="#" class="ah-info-link">Транспортная доступность</a>
+							<a href="#" class="ah-info-link">Транспортная</a>
+							<a href="#" class="ah-info-link">доступность</a>
 							<div class="ah-info-text">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam expedita consectetur odio excepturi autem, quia, consequuntur aut doloribus, molestias nostrum at ratione ullam. Molestias quibusdam rem earum voluptatem voluptate.
 							</div>
