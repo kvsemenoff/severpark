@@ -11,6 +11,10 @@ $(document).ready(function(){
     //         } 
     //     });      
     // });
+    // Cache selectors
+
+
+
     $(".ab-main-menu li").click(function(){
        // alert('d');
         $(this).children('a').trigger('click');
@@ -377,3 +381,4 @@ $(function () {
   
         
 });
+
