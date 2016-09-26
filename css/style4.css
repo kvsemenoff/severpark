@@ -46,7 +46,7 @@
     text-align: center; }
   .ab-wrap-header .first-number, .ab-wrap-header .second-number {
     font-size: 25px;
-    text-shadow: 1px 1px 2px black; }
+    text-shadow: 1px 1px 2px white; }
   .ab-wrap-header .first-number {
     display: inline-block;
     background: url(../img/ab-number.png) no-repeat left center;
