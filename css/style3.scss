@@ -9,8 +9,12 @@ $padding_top_bottom_mobile: 25px;
 
 .az-hover:hover{
 	opacity: 0.5;
+	// cursor: pointer;
 }
-
+.az-hover{
+	//opacity: 0.5;
+	cursor: pointer;
+}
 .az-map{
 	display: none;
 }

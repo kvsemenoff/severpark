@@ -91,6 +91,9 @@
 			    	$('.az-alert').removeClass('alertblock');
 		    	// });
 		    });
-		
+			$(".az-hover").click(function(e){
+				var tmp = $(this).parent('a').attr('href');
+				location.href = tmp;
+			});
 	});
 </script>

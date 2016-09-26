@@ -1,6 +1,9 @@
 .az-hover:hover {
   opacity: 0.5; }
 
+.az-hover {
+  cursor: pointer; }
+
 .az-map {
   display: none; }
 
