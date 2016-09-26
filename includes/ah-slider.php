@@ -1,5 +1,4 @@
 <a name="galery"></a>
-<div class="clearfix"></div>
 <section class="ah-slider">
 	<div class="ah-slidbox">
 		<div class="item">

@@ -37,6 +37,7 @@ strong{
     background: linear-gradient($topcolor, $topcolor);
 
 }
+
 .kupit{
     width: 100%;
     padding: $padding_top_bottom_mobile 0px;
@@ -139,6 +140,14 @@ strong{
             }
 
         }
+    }
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 
 }
@@ -519,9 +528,7 @@ input, textarea{
     .anz-mobile{
         display: block;
     }
-
    
-    
 
     #check_1{
         display: none;

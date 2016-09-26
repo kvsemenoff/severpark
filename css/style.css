@@ -94,6 +94,11 @@ strong {
         padding-left: 30px; }
       .contacts .ho-contact-box .desc .address, .contacts .ho-contact-box .desc .email, .contacts .ho-contact-box .desc .tel {
         margin-bottom: 10px; }
+  .contacts a {
+    color: #fff;
+    text-decoration: none; }
+  .contacts a:hover {
+    text-decoration: underline; }
 
 .order {
   background: url(../img/order_bg.png) repeat;

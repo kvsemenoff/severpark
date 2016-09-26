@@ -1,10 +1,12 @@
+<a name="main"></a>
 <section class="ab-wrap-header">
 	<div class="ab-wrap-menu">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
-					<ul class="ab-main-menu hidden-xs hidden-sm">
-						<li><a href="/">Главная</a></li>
+					<div id="nav-anchor"></div>
+					<ul class="ab-main-menu hidden-xs hidden-sm ab-main-menu-1">
+						<li><a href="#main">Главная</a></li>
 						<li><a href="#galery">Галерея</a></li>
 						<li><a href="#akcii">Акции</a></li>
 						<li><a href="#news">Новости</a></li>
