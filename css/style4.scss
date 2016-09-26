@@ -73,15 +73,14 @@ strong{
 
     .ab-phone-number{
 
-        text-align: center;
-        img{
-            display: inline;
-            margin-top: 15px;
-        }
+       text-align: center;
+        
     }
 
     .first-number, .second-number{
         font-size: 25px;
+        //display: inline-block;
+
     }
 
     .first-number{
@@ -90,12 +89,11 @@ strong{
          font-family: "RobotoRegular";
          color: #009FE3;
          padding-left: 38px;
-         img {
-           //margin-right: 10px;
-         }
+         
     }
 
     .second-number{
+        display: inline-block;
         font-family: "RobotoBold";
         color: #6DB756;
     }
@@ -226,16 +224,14 @@ strong{
     .ab-phone-number {
         margin-right: 792px;
         margin-top: 4px;
-        img {
-            left: 214px;
-            //position: absolute;
-            top: 175px;
-        }
+        
         .first-number{
             font-size: 36px;
+            display: inline;
         }
         .second-number{
             font-size: 36px;
+            display: inline;
         }
     }
     .ab-button{

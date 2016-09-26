@@ -44,9 +44,6 @@
     text-align: center; }
   .ab-wrap-header .ab-phone-number {
     text-align: center; }
-    .ab-wrap-header .ab-phone-number img {
-      display: inline;
-      margin-top: 15px; }
   .ab-wrap-header .first-number, .ab-wrap-header .second-number {
     font-size: 25px; }
   .ab-wrap-header .first-number {
@@ -56,6 +53,7 @@
     color: #009FE3;
     padding-left: 38px; }
   .ab-wrap-header .second-number {
+    display: inline-block;
     font-family: "RobotoBold";
     color: #6DB756; }
   .ab-wrap-header .ab-button {
@@ -139,13 +137,12 @@
   .ab-phone-number {
     margin-right: 792px;
     margin-top: 4px; }
-    .ab-phone-number img {
-      left: 214px;
-      top: 175px; }
     .ab-phone-number .first-number {
-      font-size: 36px; }
+      font-size: 36px;
+      display: inline; }
     .ab-phone-number .second-number {
-      font-size: 36px; }
+      font-size: 36px;
+      display: inline; }
 
   .ab-button {
     left: 406px;

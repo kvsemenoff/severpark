@@ -51,7 +51,7 @@
 					<img class="img-responsive" src="img/ab-raion.png" alt="">
 				</div>
 				<div class="ab-phone-number">
-					<span class="first-number">+7 (3822)</span><span class="second-number">75-03-57</span>
+					<span class="first-number">+7(3822)</span><span class="second-number">75-03-57</span>
 				</div>
 				<div class="ab-button">
 					<a href="#zvonok" name="modal">Заказать звонок</a> 
