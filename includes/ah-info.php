@@ -120,8 +120,9 @@
 	$(function(){
 		if(window.matchMedia('(min-width : 480px)').matches)
 	    {
-			$('.ah-info-link').hover(function(e) {
+			$('.ah-info-link').click(function(e) {
 	        	$(this).parent().find('.ah-info-text').toggle();
+	        	return false;
 		    });
 		}
 	});
