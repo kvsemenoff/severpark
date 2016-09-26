@@ -79,6 +79,7 @@ strong{
 
     .first-number, .second-number{
         font-size: 25px;
+        text-shadow: 1px 1px 2px black;
         //display: inline-block;
 
     }
@@ -89,9 +90,7 @@ strong{
          font-family: "RobotoRegular";
          color: #009FE3;
          padding-left: 38px;
-         
     }
-
     .second-number{
         display: inline-block;
         font-family: "RobotoBold";
@@ -175,6 +174,12 @@ strong{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    .first-number, .second-number{
+        font-size: 25px;
+        text-shadow: none !important;
+        //display: inline-block;
+
+    }
 	.ab-wrap-header{
         background: url(../img/headphone.jpg) no-repeat center;
     }
