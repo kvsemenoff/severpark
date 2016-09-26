@@ -45,7 +45,8 @@
   .ab-wrap-header .ab-phone-number {
     text-align: center; }
   .ab-wrap-header .first-number, .ab-wrap-header .second-number {
-    font-size: 25px; }
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black; }
   .ab-wrap-header .first-number {
     display: inline-block;
     background: url(../img/ab-number.png) no-repeat left center;
@@ -104,6 +105,10 @@
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  .first-number, .second-number {
+    font-size: 25px;
+    text-shadow: none !important; }
+
   .ab-wrap-header {
     background: url(../img/headphone.jpg) no-repeat center; } }
 /* Medium Devices, Desktops */
